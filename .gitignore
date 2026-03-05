@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual env / local tooling
+.venv/
+venv/
+
+# Logs / temp
+logs/
+*.log
+*.tmp
+
+# Smoke datasets
+data/_smoke_*
+
+# Keep heavy checkpoints out of normal Git (selected winner is added with -f via publish script)
+artifacts_*/**/*.pt
+
+# OS/editor
+.DS_Store
+Thumbs.db

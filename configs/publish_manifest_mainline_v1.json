@@ -6,6 +6,8 @@
     "configs"
   ],
   "include_globs": [
+    ".gitignore",
+    ".gitattributes",
     "data/mainline_*.json",
     "data/mainline_*.jsonl",
     "artifacts_maestro/mainline_single_v1/*.json",
