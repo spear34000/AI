@@ -1,8 +1,0 @@
-{
-  "source_train": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_verified_v2_train.jsonl",
-  "source_eval": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_verified_v2_eval.jsonl",
-  "train_rows": 68716,
-  "eval_rows": 2048,
-  "answer_format": "정답: ...",
-  "style": "hint_retry_answer_summary"
-}
