@@ -1,0 +1,9 @@
+{
+  "train_out": "data\\mainline_general_polish_v2_train.jsonl",
+  "eval_out": "data\\mainline_general_polish_v2_eval.jsonl",
+  "train_rows": 23400,
+  "eval_rows": 1024,
+  "seed": 42,
+  "repeat_per_prompt": 2600,
+  "prompt_count": 9
+}

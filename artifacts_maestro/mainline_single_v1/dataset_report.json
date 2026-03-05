@@ -1,0 +1,108 @@
+{
+  "general": {
+    "train": {
+      "path": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_general_v3_clean_train.jsonl",
+      "size_bytes": 41297492,
+      "mtime_ns": 1772705732632722900,
+      "sha1_head": "90433981a3658fa3"
+    },
+    "eval": {
+      "path": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_general_v3_clean_eval.jsonl",
+      "size_bytes": 835741,
+      "mtime_ns": 1772705732642777300,
+      "sha1_head": "adfc2e3a0b01d40a"
+    },
+    "manifest": {
+      "path": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_general_v3_clean.manifest.json",
+      "size_bytes": 648,
+      "mtime_ns": 1772705732642777300,
+      "sha1_head": "db9bab1407351ebd"
+    },
+    "train_rows": 84381,
+    "eval_rows": 1722
+  },
+  "logic": {
+    "train": {
+      "path": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_verified_v3_train.jsonl",
+      "size_bytes": 33557504,
+      "mtime_ns": 1772705733449351800,
+      "sha1_head": "44951733ceb58726"
+    },
+    "eval": {
+      "path": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_verified_v3_eval.jsonl",
+      "size_bytes": 960696,
+      "mtime_ns": 1772705733464029000,
+      "sha1_head": "3fd68169114a9694"
+    },
+    "manifest": {
+      "path": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_verified_v3.manifest.json",
+      "size_bytes": 559,
+      "mtime_ns": 1772705733464029000,
+      "sha1_head": "c02f90cc56ee9e3d"
+    },
+    "train_rows": 74400,
+    "eval_rows": 2144,
+    "mix": {
+      "path": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_mix_v3_train.jsonl",
+      "rows": 74400,
+      "general_rows": 63240,
+      "logic_rows": 11160
+    },
+    "repair_mix": {
+      "path": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_repair_mix_v3_train.jsonl",
+      "rows": 74400,
+      "general_rows": 66960,
+      "logic_rows": 7440
+    }
+  },
+  "benchmarks": {
+    "prompt_suite": {
+      "path": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_prompt_suite_v1.json",
+      "size_bytes": 1157,
+      "mtime_ns": 1772705736194629400,
+      "sha1_head": "68d1f11cc97d62be"
+    },
+    "logic_readout": {
+      "path": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_reasoning_readout_v1.json",
+      "size_bytes": 631,
+      "mtime_ns": 1772705736196142700,
+      "sha1_head": "1ae4267df06770e7"
+    }
+  },
+  "runs": [
+    {
+      "command": [
+        "C:\\Program Files\\Python311\\python.exe",
+        "scripts/build_mainline_general_v3_clean.py",
+        "--train_out",
+        "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_general_v3_clean_train.jsonl",
+        "--eval_out",
+        "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_general_v3_clean_eval.jsonl",
+        "--manifest_out",
+        "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_general_v3_clean.manifest.json"
+      ],
+      "cwd": "C:\\Users\\User\\Desktop\\test_ai",
+      "returncode": 0,
+      "stdout": "{\"train_out\": \"C:\\\\Users\\\\User\\\\Desktop\\\\test_ai\\\\data\\\\mainline_general_v3_clean_train.jsonl\", \"eval_out\": \"C:\\\\Users\\\\User\\\\Desktop\\\\test_ai\\\\data\\\\mainline_general_v3_clean_eval.jsonl\", \"train_rows\": 84381, \"eval_rows\": 1722, \"seed\": 42, \"sources\": {\"repair_ko_direct_v3\": 70000, \"repair_ko_only_clean_v1\": 70000, \"final_ko_chat\": 79868, \"final_ko_fluency\": 82090, \"final_ko_coding\": 18, \"primer_rows\": 15000}, \"filters\": {\"remove_arithmetic_contamination\": true, \"remove_repetitive_suffix_style\": true, \"remove_code_like_samples\": true, \"max_output_len\": 240}}\n",
+      "stderr": "",
+      "elapsed_sec": 33.13564920425415
+    },
+    {
+      "command": [
+        "C:\\Program Files\\Python311\\python.exe",
+        "scripts/build_mainline_logic_verified_v3.py",
+        "--train_out",
+        "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_verified_v3_train.jsonl",
+        "--eval_out",
+        "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_verified_v3_eval.jsonl",
+        "--manifest_out",
+        "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_verified_v3.manifest.json"
+      ],
+      "cwd": "C:\\Users\\User\\Desktop\\test_ai",
+      "returncode": 0,
+      "stdout": "{\"train_out\": \"C:\\\\Users\\\\User\\\\Desktop\\\\test_ai\\\\data\\\\mainline_logic_verified_v3_train.jsonl\", \"eval_out\": \"C:\\\\Users\\\\User\\\\Desktop\\\\test_ai\\\\data\\\\mainline_logic_verified_v3_eval.jsonl\", \"train_rows\": 74400, \"eval_rows\": 2144, \"seed\": 42, \"categories\": [\"compare_smallest\", \"probability\", \"sequence\", \"syllogism\", \"sentence_relation_yesno\"], \"notes\": [\"sequence labels use a deterministic alternating rule\", \"ambiguous canonical sequence (2,6,7,21,23,69) is labeled as �� �� ����\"]}\n",
+      "stderr": "",
+      "elapsed_sec": 0.8010697364807129
+    }
+  ]
+}

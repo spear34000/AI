@@ -1,0 +1,13 @@
+{
+  "train_out": "data\\mainline_suite_fix_v1_train.jsonl",
+  "eval_out": "data\\mainline_suite_fix_v1_eval.jsonl",
+  "train_rows": 65400,
+  "eval_rows": 1024,
+  "seed": 42,
+  "components": {
+    "general_suite_rows": 19800,
+    "logic_suite_rows": 9600,
+    "general_replay_rows": 24000,
+    "logic_replay_rows": 12000
+  }
+}

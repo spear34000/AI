@@ -1,0 +1,28 @@
+{
+  "train_out": "data\\mainline_general_v2_clean_train.jsonl",
+  "eval_out": "data\\mainline_general_v2_clean_eval.jsonl",
+  "train_rows": 85396,
+  "eval_rows": 1742,
+  "seed": 42,
+  "sources": {
+    "repair_ko_direct_v3": 60000,
+    "repair_ko_only_clean_v1": 60000,
+    "final_ko_chat": 80257,
+    "final_ko_fluency": 70000,
+    "final_ko_coding": 18,
+    "primer_rows": 26000
+  },
+  "filters": {
+    "banned_style": [
+      "필요하면 예시도",
+      "요청하면 실무 예시",
+      "요청하면 관련 개념",
+      "원하면 더 짧게",
+      "추가로 관련 개념",
+      "질문의 핵심을 빠르게 파악해 단계별로"
+    ],
+    "remove_arithmetic_contamination": true,
+    "remove_repetition": true,
+    "max_output_len": 260
+  }
+}

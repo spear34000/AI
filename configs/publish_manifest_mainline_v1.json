@@ -1,0 +1,25 @@
+{
+  "remote_url": "https://github.com/spear34000/AI.git",
+  "branch": "main",
+  "include_roots": [
+    "scripts",
+    "configs"
+  ],
+  "include_globs": [
+    "data/mainline_*.json",
+    "data/mainline_*.jsonl",
+    "artifacts_maestro/mainline_single_v1/*.json",
+    "artifacts_maestro/mainline_single_v1/*.jsonl"
+  ],
+  "exclude_globs": [
+    "logs/*",
+    "scripts/*.log",
+    "data/_smoke_*",
+    "*/__pycache__/*",
+    "artifacts_*/*.pt",
+    "artifacts_*/*/*.pt",
+    "artifacts_*/*/*/*.pt"
+  ],
+  "promotion_report_path": "artifacts_maestro/mainline_single_v1/promotion_report.json",
+  "eval_report_path": "artifacts_maestro/mainline_single_v1/eval_report.json"
+}

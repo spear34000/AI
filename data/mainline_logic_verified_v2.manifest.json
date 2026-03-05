@@ -1,0 +1,20 @@
+{
+  "train_out": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_verified_v2_train.jsonl",
+  "eval_out": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_verified_v2_eval.jsonl",
+  "train_rows": 68716,
+  "eval_rows": 2048,
+  "seed": 42,
+  "sources": {
+    "public_reasoning_cached_v2_train": 12000,
+    "public_reasoning_cached_v2_eval": 512,
+    "synthetic_train": 64000,
+    "synthetic_eval": 1536
+  },
+  "categories": [
+    "compare_smallest",
+    "syllogism",
+    "probability",
+    "sequence",
+    "sentence_relation_yesno"
+  ]
+}

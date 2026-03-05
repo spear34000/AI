@@ -1,0 +1,18 @@
+{
+  "train_out": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_verified_v3_train.jsonl",
+  "eval_out": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_logic_verified_v3_eval.jsonl",
+  "train_rows": 74400,
+  "eval_rows": 2144,
+  "seed": 42,
+  "categories": [
+    "compare_smallest",
+    "probability",
+    "sequence",
+    "syllogism",
+    "sentence_relation_yesno"
+  ],
+  "notes": [
+    "sequence labels use a deterministic alternating rule",
+    "ambiguous canonical sequence (2,6,7,21,23,69) is labeled as 알 수 없음"
+  ]
+}

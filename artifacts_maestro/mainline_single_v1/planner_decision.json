@@ -1,0 +1,47 @@
+{
+  "experiment_id": "mainline_single_v1",
+  "goal": "single_pure_model",
+  "priority_capability": "logic",
+  "selected": {
+    "mainline_base_checkpoint": "artifacts_mainline_suite_fix_v1_runA\\slm_best.pt",
+    "logic_reference_checkpoint": "artifacts_bigslm_50m_safe_fromscratch_v1_runC_stage3\\slm_last.pt",
+    "arithmetic_reference_checkpoint": "artifacts_teacher_arith_pure_mix_fromscratch_v3_runA\\slm_last.pt"
+  },
+  "known_failures": [
+    "loss != exact_match",
+    "narrow fine-tune causes catastrophic forgetting",
+    "arith-only branch contaminates general prompts"
+  ],
+  "baseline_metrics": {
+    "arithmetic_branch_exact_v3": 0.388671875,
+    "logic_stage3_compare_exact": null
+  },
+  "phases": {
+    "phase1_general": {
+      "dataset_id": "mainline_general_v3_clean",
+      "resume_from": "artifacts_mainline_suite_fix_v1_runA\\slm_best.pt",
+      "response_loss_only": false
+    },
+    "phase2_logic": {
+      "dataset_id": "mainline_logic_mix_v3",
+      "resume_from": "artifacts_mainline_general_v3_runA/slm_best.pt",
+      "mix_ratio": {
+        "general": 0.85,
+        "logic": 0.15
+      },
+      "response_loss_only": true
+    },
+    "phase3_general_repair": {
+      "enabled": true,
+      "dataset_id": "mainline_logic_repair_mix_v3",
+      "resume_from": "artifacts_mainline_logic_v3_runA/slm_best.pt",
+      "response_loss_only": false
+    }
+  },
+  "promotion_gates": {
+    "logic_exact_min": 0.1,
+    "general_prompt_suite_pass_rate_min": 0.75,
+    "collapse_rate_max": 0.1,
+    "definition_relevance_score_min": 0.35
+  }
+}

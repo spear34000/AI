@@ -1,0 +1,20 @@
+{
+  "train_out": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_general_v1_train.jsonl",
+  "eval_out": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_general_v1_eval.jsonl",
+  "train_rows": 110621,
+  "eval_rows": 2048,
+  "seed": 42,
+  "sources": {
+    "repair_ko_direct_v3": 78139,
+    "repair_ko_only_clean_v1": 79665,
+    "한국어유창성_augmented_v1": 60000,
+    "seed_primer_rows": 33000
+  },
+  "filters": {
+    "remove_arithmetic_contamination": true,
+    "remove_template_suffixes": true,
+    "remove_long_doc_tasks": true,
+    "definition_mismatch_filter": true,
+    "reject_cyrillic_outputs": true
+  }
+}

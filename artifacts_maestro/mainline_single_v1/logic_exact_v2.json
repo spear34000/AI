@@ -1,0 +1,2236 @@
+{
+  "finished": true,
+  "count": 10,
+  "results": [
+    {
+      "checkpoint": "artifacts_bigslm_50m_safe_fromscratch_v1_runC_stage2\\slm_last.pt",
+      "count": 512,
+      "exact_match": 0.0,
+      "parse_rate": 1.0,
+      "explicit_final_answer_rate": 0.25390625,
+      "by_category": {
+        "compare_smallest": {
+          "count": 92,
+          "exact_match": 0.0
+        },
+        "probability": {
+          "count": 110,
+          "exact_match": 0.0
+        },
+        "sentence_relation_yesno": {
+          "count": 127,
+          "exact_match": 0.0
+        },
+        "sequence": {
+          "count": 80,
+          "exact_match": 0.0
+        },
+        "syllogism": {
+          "count": 103,
+          "exact_match": 0.0
+        }
+      },
+      "samples": [
+        {
+          "category": "probability",
+          "gold": "2/5",
+          "pred": "이두가지한명은2개입니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 2개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이 두 가지 한 명은 2개입니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "C",
+          "pred": "D는D입니다",
+          "match": false,
+          "prompt": "D는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "D는 D입니다."
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "\"주\"는\"사\"라는것을의미합니다",
+          "match": false,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.\n문장2: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.",
+          "stdout": "\"주\"는 \"사\"라는 것을 의미합니다."
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "1.계산:\"주\"",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"주\""
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "1.계산:\"주\"",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"주\""
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "4.0입니다",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 2019년 5월 7일에 규현이 제대하면서 슈퍼주니어의 멤버들이 군 복무를 마쳤다. 7월 11일에는 강인이 SM 및 Label SJ와의 계약을 유지했지만, 자발적으로 슈퍼주니어를 떠나게 되었다. 2019년 7월 12일, 슈퍼쇼 7S 월드투어를 제다 시즌 페스티벌의 일환으로 킹 압둘라 스포츠 시티로 가져가 아시아 최초로 K-Pop 단독 콘서트를 열었다.\n질문: 슈퍼주니어의 모든 멤버들은 군 복무를 마쳤는가?",
+          "stdout": "정답은 4.0입니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "B는C는C입니다",
+          "match": false,
+          "prompt": "B는 C보다 크고, C는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "B는 C는 C입니다."
+        },
+        {
+          "category": "probability",
+          "gold": "4/5",
+          "pred": "이두가지한명은1개입니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 4개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이 두 가지 한 명은 1개입니다."
+        },
+        {
+          "category": "sequence",
+          "gold": "192",
+          "pred": "1.계산:\"A\"\"A\"31724453867977876886의결과는4입니다",
+          "match": false,
+          "prompt": "수열 9, 18, 22, 44, 48, 96, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"A\", \"A\", 31, 72, 44, 53, 8, 6, 7, 9, 7, 7, 8, 7, 6, 8, 8, 6의 결과는 4입니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "B입니다",
+          "match": false,
+          "prompt": "모든 C는 E다. 모든 E는 B다. 그러면 모든 C는 B인가?",
+          "stdout": "정답은 B입니다."
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "\"그스다\"는\"아리\"입니다",
+          "match": false,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: Callum O'brien(뉴질랜드 캠브리지 1982년 11월 4일 출생)은 프로 스쿼시 선수입니다.\n문장2: Callum O'brien(1982년 11월 4일 캠브리지 출생)은 뉴질랜드의 프로 스쿼시 선수입니다.",
+          "stdout": "\"그스다\"는 \"아리\"입니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "E는B는B는C는B는D입니다",
+          "match": false,
+          "prompt": "모든 E는 B다. 어떤 B는 A다. 그러면 어떤 E는 A인가?",
+          "stdout": "E는 B는 B는 C는 B는 D입니다."
+        },
+        {
+          "category": "probability",
+          "gold": "5/8",
+          "pred": "이두가지한명은2개입니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 5개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이 두 가지 한 명은 2개입니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "A",
+          "pred": "B는C는C는D입니다",
+          "match": false,
+          "prompt": "B는 C보다 크고, C는 A보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "B는 C는 C는 D입니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "C입니다",
+          "match": false,
+          "prompt": "모든 E는 C다. 모든 C는 D다. 그러면 모든 E는 D인가?",
+          "stdout": "정답은 C입니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "A는E는E가있습니다",
+          "match": false,
+          "prompt": "모든 A는 E다. 어떤 E는 D다. 그러면 어떤 A는 D인가?",
+          "stdout": "A는 E는 E가 있습니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "B는C는C는D입니다",
+          "match": false,
+          "prompt": "모든 C는 E다. 어떤 E는 B다. 그러면 어떤 C는 B인가?",
+          "stdout": "B는 C는 C는 D입니다."
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "이후이와같은한자인'사산'라는한명으로인해찍을수있습니다",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 나혜석은 어렵게 일본 유학을 떠난 만큼 열심히 공부했고, 성적도 우수해 신문에 보도되기도 했다. 1910년대 일본 유학생은 많이 증가했으나 그는 몇안되는 여자 유학생이었으므로 그의 일본 유학 생활은 화제가 되어 국내에 보도되었다. 이후 교포여학생 모임인 '조선여자친목회'를 결성해 기관지를 내는 등 문필활동도 활발히 전개했다.\n질문: 나혜석과 일본 유학을 같이 간 여자 유학생이 많았다.",
+          "stdout": "이 후, 이와 같은 한자인 '사산'라는 한 명으로 인해 찍을 수 있습니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "B입니다",
+          "match": false,
+          "prompt": "C는 B보다 크고, B는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "정답은 B입니다."
+        },
+        {
+          "category": "sequence",
+          "gold": "1152",
+          "pred": "1.계산:\"A\"\"A\"31725344876797787.2.결과:6",
+          "match": false,
+          "prompt": "수열 12, 36, 41, 123, 128, 384, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"A\", \"A\", 31, 72, 53, 44, 8, 7, 6, 7, 9, 7, 7, 8, 7. 2. 결과: 6"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "이다는E는E가있습니다",
+          "match": false,
+          "prompt": "모든 E는 A다. 어떤 A는 D다. 그러면 어떤 E는 D인가?",
+          "stdout": "이다는 E는 E가 있습니다."
+        },
+        {
+          "category": "probability",
+          "gold": "6/7",
+          "pred": "이두가지한명은1개입니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 6개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이 두 가지 한 명은 1개입니다."
+        },
+        {
+          "category": "sequence",
+          "gold": "558",
+          "pred": "1.계산:\"주\"",
+          "match": false,
+          "prompt": "수열 6, 18, 20, 60, 62, 186, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"주\""
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "이와같은좀더많은사람들이찍을수있는것이좋습니다",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 리비아에서 가장 대중적인 음식은 쿠스쿠스로서 시리얼을 끓여서 대개는 보리나 밀로 요리하고 고기와 감자를 넣어 끓이는 것이다. 고기는 대개 양고기이지만 가끔씩 닭고기도 쓴다. 리비아는 올리브와 샤르바가 많이 나는데 샤르바는 리비아 요리의 매운 듯한 맛을 내는 중요 재료이다. 지중해 연안의 국가이기에 과일이나 채소가 많이 식사 비중을 차지한다.\n질문: 쿠스쿠스에 들어가는 고기는 대개 닭고기이다.",
+          "stdout": "이와 같은 좀 더 많은 사람들이 찍을 수 있는 것이 좋습니다."
+        }
+      ]
+    },
+    {
+      "checkpoint": "artifacts_bigslm_50m_safe_fromscratch_v1_runC_stage3\\slm_last.pt",
+      "count": 512,
+      "exact_match": 0.0,
+      "parse_rate": 1.0,
+      "explicit_final_answer_rate": 0.365234375,
+      "by_category": {
+        "compare_smallest": {
+          "count": 92,
+          "exact_match": 0.0
+        },
+        "probability": {
+          "count": 110,
+          "exact_match": 0.0
+        },
+        "sentence_relation_yesno": {
+          "count": 127,
+          "exact_match": 0.0
+        },
+        "sequence": {
+          "count": 80,
+          "exact_match": 0.0
+        },
+        "syllogism": {
+          "count": 103,
+          "exact_match": 0.0
+        }
+      },
+      "samples": [
+        {
+          "category": "probability",
+          "gold": "2/5",
+          "pred": "이경우:모든경우이와같은경우이때이경우의수있는가있습니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 2개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "1. 계산: 주일, 이 경우, 이 경우 2. 결과: 이 경우, 그 후, 이 경우: 이 경우 2. 결론: 이 경우: 모든 경우, 이와 같은 경우, 이 때, 이 경우의 수 있는가 있습니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "C",
+          "pred": "1.계산:D는C2.결과:D2.결과:Choosethebestoption",
+          "match": false,
+          "prompt": "D는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "1. 계산: D는 C 2. 결과: D 2. 결과: Choose the best option."
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "모든결론은일반적으로결론이필요합니다.2.결론:결론:결론은결론이발생할수없습니다",
+          "match": false,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.\n문장2: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.",
+          "stdout": "1. 계산: 모든 결론: 모든 결론은 일반적으로 결론이 필요합니다. 2. 결론: 결론: 결론은 결론이 발생할 수 없습니다."
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "1.계산:\"일리\"\"일리\"2.결과:\"일\"",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"일리\", \"일리\" 2. 결과: \"일\""
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "1.계산:\"일리\"\"일리\"2.결과:\"일\"",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"일리\", \"일리\" 2. 결과: \"일\""
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "1.계산:이두번째SM-S-S-K-S-M-S.2.S-S-B-S-L-S-D-S-R-S-V-S-F-S-J-S-H-S-A-S-O-S-P-S-T-S-W-S-I-S-G-S-N-S-C-S-E-",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 2019년 5월 7일에 규현이 제대하면서 슈퍼주니어의 멤버들이 군 복무를 마쳤다. 7월 11일에는 강인이 SM 및 Label SJ와의 계약을 유지했지만, 자발적으로 슈퍼주니어를 떠나게 되었다. 2019년 7월 12일, 슈퍼쇼 7S 월드투어를 제다 시즌 페스티벌의 일환으로 킹 압둘라 스포츠 시티로 가져가 아시아 최초로 K-Pop 단독 콘서트를 열었다.\n질문: 슈퍼주니어의 모든 멤버들은 군 복무를 마쳤는가?",
+          "stdout": "1. 계산: 이 두 번째 SM-S-S-K-S-M-S. 2. S-S-B-S-L-S-D-S-R-S-V-S-F-S-J-S-H-S-A-S-O-S-P-S-T-S-W-S-I-S-G-S-N-S-C-S-E-"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "1.계산:B는C2.C3.C4.C4.C5.C4.C",
+          "match": false,
+          "prompt": "B는 C보다 크고, C는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "1. 계산: B는 C 2. C 3. C 4. C 4. C 5. C 4. C"
+        },
+        {
+          "category": "probability",
+          "gold": "4/5",
+          "pred": "3.결론:4.결론:5",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 4개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "1. 계산: 이 두 가지 수: 1. 계산: 모든 2. 결과: 이 경우, 이 경우: 이 경우: 1. 결론: 3. 결론: 4. 결론: 5."
+        },
+        {
+          "category": "sequence",
+          "gold": "192",
+          "pred": "1.계산:\"A\"\"A\"317293847572726277727343727672797373729272747275737473777375747477747563739373637263746",
+          "match": false,
+          "prompt": "수열 9, 18, 22, 44, 48, 96, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"A\", \"A\", 31, 72, 93, 84, 75, 72, 72, 62, 77, 72, 73, 43, 72, 76, 72, 79, 73, 73, 72, 92, 72, 74, 72, 75, 73, 74, 73, 77, 73, 75, 74, 74, 77, 74, 75, 63, 73, 93, 73, 63, 72, 63, 74, 6"
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "1.계산:A는C2.결과:A는B",
+          "match": false,
+          "prompt": "모든 C는 E다. 모든 E는 B다. 그러면 모든 C는 B인가?",
+          "stdout": "1. 계산: A는 C 2. 결과: A는 B."
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "1.계산:\"일리\"2.\"일리\"\"일리다\"3.\"일리스\"4.\"일리리\"4.\"시\"5.\"일리니\"",
+          "match": false,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: Callum O'brien(뉴질랜드 캠브리지 1982년 11월 4일 출생)은 프로 스쿼시 선수입니다.\n문장2: Callum O'brien(1982년 11월 4일 캠브리지 출생)은 뉴질랜드의 프로 스쿼시 선수입니다.",
+          "stdout": "1. 계산: \"일리\" 2. \"일리\", \"일리다\" 3. \"일리스\" 4. \"일리리\" 4. \"시\" 5. \"일리니\""
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "1.계산:E는E는E가C다.2.E는E를E가E가E는E에E가E를E는E의E가E에E는E로E가E의E는E와E는EE는E입니다",
+          "match": false,
+          "prompt": "모든 E는 B다. 어떤 B는 A다. 그러면 어떤 E는 A인가?",
+          "stdout": "1. 계산: E는 E는 E가 C다. 2. E는 E를 E가 E가 E는 E에 E가 E를 E는 E의 E가 E에 E는 E로 E가 E의 E는 E와 E는 E E는 E입니다."
+        },
+        {
+          "category": "probability",
+          "gold": "5/8",
+          "pred": "이경우:모든경우이와같은경우이때이경우의수있습니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 5개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "1. 계산: 주일, 이 경우, 이 경우 2. 결과: 이 경우, 그 후, 이 경우: 이 경우 2. 결론: 이 경우: 모든 경우, 이와 같은 경우, 이 때, 이 경우의 수 있습니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "A",
+          "pred": "1.계산:B는C2.C3.C4.C4.C5.C4.C",
+          "match": false,
+          "prompt": "B는 C보다 크고, C는 A보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "1. 계산: B는 C 2. C 3. C 4. C 4. C 5. C 4. C"
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "1.계산:E는E가C다.2.결과:E는C다",
+          "match": false,
+          "prompt": "모든 E는 C다. 모든 C는 D다. 그러면 모든 E는 D인가?",
+          "stdout": "1. 계산: E는 E가 C다. 2. 결과: E는 C다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "1.계산:A는C2.결과:A는B",
+          "match": false,
+          "prompt": "모든 A는 E다. 어떤 E는 D다. 그러면 어떤 A는 D인가?",
+          "stdout": "1. 계산: A는 C 2. 결과: A는 B."
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "1.계산:A는C2.C3.C4.C4.C5.C4.C",
+          "match": false,
+          "prompt": "모든 C는 E다. 어떤 E는 B다. 그러면 어떤 C는 B인가?",
+          "stdout": "1. 계산: A는 C 2. C 3. C 4. C 4. C 5. C 4. C"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "1967년6월1일19세기전장1976년9월1일에개정되었습니다",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 나혜석은 어렵게 일본 유학을 떠난 만큼 열심히 공부했고, 성적도 우수해 신문에 보도되기도 했다. 1910년대 일본 유학생은 많이 증가했으나 그는 몇안되는 여자 유학생이었으므로 그의 일본 유학 생활은 화제가 되어 국내에 보도되었다. 이후 교포여학생 모임인 '조선여자친목회'를 결성해 기관지를 내는 등 문필활동도 활발히 전개했다.\n질문: 나혜석과 일본 유학을 같이 간 여자 유학생이 많았다.",
+          "stdout": "1. 이 중 2. 결론: 1967년 6월 1일, 19세기 전장, 1976년 9월 1일에 개정되었습니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "1.계산:C2.C3.C4.C4.C5.C4.C",
+          "match": false,
+          "prompt": "C는 B보다 크고, B는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "1. 계산: C 2. C 3. C 4. C 4. C 5. C 4. C"
+        },
+        {
+          "category": "sequence",
+          "gold": "1152",
+          "pred": "1.계산:\"A\"\"A\"317293817475627272437273777372627383737363738973767374737173757379736274727463729273617",
+          "match": false,
+          "prompt": "수열 12, 36, 41, 123, 128, 384, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"A\", \"A\", 31, 72, 93, 81, 74, 75, 62, 72, 72, 43, 72, 73, 77, 73, 72, 62, 73, 83, 73, 73, 63, 73, 89, 73, 76, 73, 74, 73, 71, 73, 75, 73, 79, 73, 62, 74, 72, 74, 63, 72, 92, 73, 61, 7"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "1.계산:E는E는E가E가E는E를E가E에E가E를E는E의E가E로E가E의E는E에E는E와E는EE는E에서E는E로E는E입니다.2.E는E은E는EE는E나E는E다.E는E(E)E는EE는E는RE는EngE",
+          "match": false,
+          "prompt": "모든 E는 A다. 어떤 A는 D다. 그러면 어떤 E는 D인가?",
+          "stdout": "1. 계산: E는 E는 E가 E가 E는 E를 E가 E에 E가 E를 E는 E의 E가 E로 E가 E의 E는 E에 E는 E와 E는 E E는 E에서 E는 E로 E는 E입니다. 2. E는 E은 E는 E, E는 E나 E는 E다. E는 E( E) E는 EE는 E는 R E는 Eng E"
+        },
+        {
+          "category": "probability",
+          "gold": "6/7",
+          "pred": "이경우:모든경우이와같은경우이때이경우의수있습니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 6개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "1. 계산: 주일, 이 경우, 이 경우 2. 결과: 이 경우, 그 후, 이 경우: 이 경우 2. 결론: 이 경우: 모든 경우, 이와 같은 경우, 이 때, 이 경우의 수 있습니다."
+        },
+        {
+          "category": "sequence",
+          "gold": "558",
+          "pred": "\"일리\"4.\"일\"4.\"가\"4.\"이\"5.\"일\"5.\"가\"",
+          "match": false,
+          "prompt": "수열 6, 18, 20, 60, 62, 186, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"일, \"일, 이\" 2. 결과: \"일\" 3. 결론: \"일리\" 4. \"일\" 4. \"가\" 4. \"이\" 5. \"일\" 5. \"가\""
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "1.은이어요2.은고리3.은소리은파나가을어다",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 리비아에서 가장 대중적인 음식은 쿠스쿠스로서 시리얼을 끓여서 대개는 보리나 밀로 요리하고 고기와 감자를 넣어 끓이는 것이다. 고기는 대개 양고기이지만 가끔씩 닭고기도 쓴다. 리비아는 올리브와 샤르바가 많이 나는데 샤르바는 리비아 요리의 매운 듯한 맛을 내는 중요 재료이다. 지중해 연안의 국가이기에 과일이나 채소가 많이 식사 비중을 차지한다.\n질문: 쿠스쿠스에 들어가는 고기는 대개 닭고기이다.",
+          "stdout": "1. 은 이 어요 2. 은 고리 3. 은 소리 은 파나가 을 어다."
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_general_v1_runF\\slm_best.pt",
+      "count": 512,
+      "exact_match": 0.0,
+      "parse_rate": 1.0,
+      "explicit_final_answer_rate": 0.078125,
+      "by_category": {
+        "compare_smallest": {
+          "count": 92,
+          "exact_match": 0.0
+        },
+        "probability": {
+          "count": 110,
+          "exact_match": 0.0
+        },
+        "sentence_relation_yesno": {
+          "count": 127,
+          "exact_match": 0.0
+        },
+        "sequence": {
+          "count": 80,
+          "exact_match": 0.0
+        },
+        "syllogism": {
+          "count": 103,
+          "exact_match": 0.0
+        }
+      },
+      "samples": [
+        {
+          "category": "probability",
+          "gold": "2/5",
+          "pred": "주시1개와1개입니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 2개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "주시 1개와 1개입니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "C",
+          "pred": "D는C입니다",
+          "match": false,
+          "prompt": "D는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "D는 C입니다."
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "\"비지시\"는\"아리\"라는것을의미합니다",
+          "match": false,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.\n문장2: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.",
+          "stdout": "\"비지시\"는 \"아리\"라는 것을 의미합니다."
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "1.계산:\"Thefirsttimeisabletobeabletouch.\"2.\"Thefirstday\"3.\"Thefirstway\"4.\"Thefirststep\"5.\"Thefirstsentence\"",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"The first time is able to be able touch.\" 2. \"The first day\" 3. \"The first way\" 4. \"The first step\" 5. \"The first sentence\""
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "1.계산:\"Thefirsttimeisabletobeabletouch.\"2.\"Thefirstday\"3.\"Thefirstway\"4.\"Thefirststep\"5.\"Thefirstsentence\"",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"The first time is able to be able touch.\" 2. \"The first day\" 3. \"The first way\" 4. \"The first step\" 5. \"The first sentence\""
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "99년7월1일에제1차로개시했습니다",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 2019년 5월 7일에 규현이 제대하면서 슈퍼주니어의 멤버들이 군 복무를 마쳤다. 7월 11일에는 강인이 SM 및 Label SJ와의 계약을 유지했지만, 자발적으로 슈퍼주니어를 떠나게 되었다. 2019년 7월 12일, 슈퍼쇼 7S 월드투어를 제다 시즌 페스티벌의 일환으로 킹 압둘라 스포츠 시티로 가져가 아시아 최초로 K-Pop 단독 콘서트를 열었다.\n질문: 슈퍼주니어의 모든 멤버들은 군 복무를 마쳤는가?",
+          "stdout": "정답은 99년 7월 1일에 제1차로 개시했습니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "B는C는C는D입니다",
+          "match": false,
+          "prompt": "B는 C보다 크고, C는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "B는 C는 C는 D입니다."
+        },
+        {
+          "category": "probability",
+          "gold": "4/5",
+          "pred": "주시1개웃고묻습니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 4개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "주시 1개, 웃고, 묻습니다."
+        },
+        {
+          "category": "sequence",
+          "gold": "192",
+          "pred": "\"\"라는\"\"는\"\"입니다",
+          "match": false,
+          "prompt": "수열 9, 18, 22, 44, 48, 96, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "\"\"라는 \"\"는 \"\"입니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "B입니다",
+          "match": false,
+          "prompt": "모든 C는 E다. 모든 E는 B다. 그러면 모든 C는 B인가?",
+          "stdout": "정답은 B입니다."
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "\"그스다\"는\"아리\"입니다",
+          "match": false,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: Callum O'brien(뉴질랜드 캠브리지 1982년 11월 4일 출생)은 프로 스쿼시 선수입니다.\n문장2: Callum O'brien(1982년 11월 4일 캠브리지 출생)은 뉴질랜드의 프로 스쿼시 선수입니다.",
+          "stdout": "\"그스다\"는 \"아리\"입니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "E는B는B는C는C는B는D입니다",
+          "match": false,
+          "prompt": "모든 E는 B다. 어떤 B는 A다. 그러면 어떤 E는 A인가?",
+          "stdout": "E는 B는 B는 C는 C는 B는 D입니다."
+        },
+        {
+          "category": "probability",
+          "gold": "5/8",
+          "pred": "주시지1개웃고옆등다양한분야에서사용됩니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 5개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "주시지 1개, 웃고, 옆, , 등 다양한 분야에서 사용됩니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "A",
+          "pred": "B는C는C는D입니다",
+          "match": false,
+          "prompt": "B는 C보다 크고, C는 A보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "B는 C는 C는 D입니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "C입니다",
+          "match": false,
+          "prompt": "모든 E는 C다. 모든 C는 D다. 그러면 모든 E는 D인가?",
+          "stdout": "정답은 C입니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "A는E는E는C는E가있습니다",
+          "match": false,
+          "prompt": "모든 A는 E다. 어떤 E는 D다. 그러면 어떤 A는 D인가?",
+          "stdout": "A는 E는 E는 C는 E가 있습니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "B는C는C는E는C는D입니다",
+          "match": false,
+          "prompt": "모든 C는 E다. 어떤 E는 B다. 그러면 어떤 C는 B인가?",
+          "stdout": "B는 C는 C는 E는 C는 D입니다."
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "이중시에는이리아라리겉등이있습니다",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 나혜석은 어렵게 일본 유학을 떠난 만큼 열심히 공부했고, 성적도 우수해 신문에 보도되기도 했다. 1910년대 일본 유학생은 많이 증가했으나 그는 몇안되는 여자 유학생이었으므로 그의 일본 유학 생활은 화제가 되어 국내에 보도되었다. 이후 교포여학생 모임인 '조선여자친목회'를 결성해 기관지를 내는 등 문필활동도 활발히 전개했다.\n질문: 나혜석과 일본 유학을 같이 간 여자 유학생이 많았다.",
+          "stdout": "이 중시에는 이리, 아, , 라, 리, 겉, 등이 있습니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "C는C는C입니다",
+          "match": false,
+          "prompt": "C는 B보다 크고, B는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "C는 C는 C입니다."
+        },
+        {
+          "category": "sequence",
+          "gold": "1152",
+          "pred": "1.계산:\"A\"\"A\"319999799799499899899699699699",
+          "match": false,
+          "prompt": "수열 12, 36, 41, 123, 128, 384, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"A\", \"A\", 31, 99, 99, 79, 97, 994, 99, 89, 98, 996, 99, 69, 96, 99"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "E는E는E가E는E의E는E를E는E입니다",
+          "match": false,
+          "prompt": "모든 E는 A다. 어떤 A는 D다. 그러면 어떤 E는 D인가?",
+          "stdout": "E는 E는 E가 E는 E의 E는 E를 E는 E입니다."
+        },
+        {
+          "category": "probability",
+          "gold": "6/7",
+          "pred": "주시1개와1개입니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 6개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "주시 1개와 1개입니다."
+        },
+        {
+          "category": "sequence",
+          "gold": "558",
+          "pred": "\"\"라는문장은\"\"입니다",
+          "match": false,
+          "prompt": "수열 6, 18, 20, 60, 62, 186, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "\"\"라는 문장은 \"\"입니다."
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "이두가지은찍어요",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 리비아에서 가장 대중적인 음식은 쿠스쿠스로서 시리얼을 끓여서 대개는 보리나 밀로 요리하고 고기와 감자를 넣어 끓이는 것이다. 고기는 대개 양고기이지만 가끔씩 닭고기도 쓴다. 리비아는 올리브와 샤르바가 많이 나는데 샤르바는 리비아 요리의 매운 듯한 맛을 내는 중요 재료이다. 지중해 연안의 국가이기에 과일이나 채소가 많이 식사 비중을 차지한다.\n질문: 쿠스쿠스에 들어가는 고기는 대개 닭고기이다.",
+          "stdout": "이 두 가지 은 찍어요."
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_general_v1_runF\\slm_last.pt",
+      "count": 512,
+      "exact_match": 0.0,
+      "parse_rate": 1.0,
+      "explicit_final_answer_rate": 0.076171875,
+      "by_category": {
+        "compare_smallest": {
+          "count": 92,
+          "exact_match": 0.0
+        },
+        "probability": {
+          "count": 110,
+          "exact_match": 0.0
+        },
+        "sentence_relation_yesno": {
+          "count": 127,
+          "exact_match": 0.0
+        },
+        "sequence": {
+          "count": 80,
+          "exact_match": 0.0
+        },
+        "syllogism": {
+          "count": 103,
+          "exact_match": 0.0
+        }
+      },
+      "samples": [
+        {
+          "category": "probability",
+          "gold": "2/5",
+          "pred": "주시1개와1개입니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 2개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "주시 1개와 1개입니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "C",
+          "pred": "D는C입니다",
+          "match": false,
+          "prompt": "D는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "D는 C입니다."
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "\"비지시\"는\"아리\"라는것을의미합니다",
+          "match": false,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.\n문장2: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.",
+          "stdout": "\"비지시\"는 \"아리\"라는 것을 의미합니다."
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "1.계산:\"Thefirsttimeisabletobeabletouch.\"2.\"Thefirstday\"3.\"Thefirstway\"4.\"Thefirststep\"5.\"Thefirstsentence\"",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"The first time is able to be able touch.\" 2. \"The first day\" 3. \"The first way\" 4. \"The first step\" 5. \"The first sentence\""
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "1.계산:\"Thefirsttimeisabletobeabletouch.\"2.\"Thefirstday\"3.\"Thefirstway\"4.\"Thefirststep\"5.\"Thefirstsentence\"",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"The first time is able to be able touch.\" 2. \"The first day\" 3. \"The first way\" 4. \"The first step\" 5. \"The first sentence\""
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "99년7월1일에제1차로개시했습니다",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 2019년 5월 7일에 규현이 제대하면서 슈퍼주니어의 멤버들이 군 복무를 마쳤다. 7월 11일에는 강인이 SM 및 Label SJ와의 계약을 유지했지만, 자발적으로 슈퍼주니어를 떠나게 되었다. 2019년 7월 12일, 슈퍼쇼 7S 월드투어를 제다 시즌 페스티벌의 일환으로 킹 압둘라 스포츠 시티로 가져가 아시아 최초로 K-Pop 단독 콘서트를 열었다.\n질문: 슈퍼주니어의 모든 멤버들은 군 복무를 마쳤는가?",
+          "stdout": "정답은 99년 7월 1일에 제1차로 개시했습니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "B는C는C는D입니다",
+          "match": false,
+          "prompt": "B는 C보다 크고, C는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "B는 C는 C는 D입니다."
+        },
+        {
+          "category": "probability",
+          "gold": "4/5",
+          "pred": "주시1개웃고묻습니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 4개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "주시 1개, 웃고, 묻습니다."
+        },
+        {
+          "category": "sequence",
+          "gold": "192",
+          "pred": "\"\"라는\"\"는\"\"입니다",
+          "match": false,
+          "prompt": "수열 9, 18, 22, 44, 48, 96, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "\"\"라는 \"\"는 \"\"입니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "B입니다",
+          "match": false,
+          "prompt": "모든 C는 E다. 모든 E는 B다. 그러면 모든 C는 B인가?",
+          "stdout": "정답은 B입니다."
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "\"그스다\"는\"아리\"입니다",
+          "match": false,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: Callum O'brien(뉴질랜드 캠브리지 1982년 11월 4일 출생)은 프로 스쿼시 선수입니다.\n문장2: Callum O'brien(1982년 11월 4일 캠브리지 출생)은 뉴질랜드의 프로 스쿼시 선수입니다.",
+          "stdout": "\"그스다\"는 \"아리\"입니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "E는B는B는C는C는B는D입니다",
+          "match": false,
+          "prompt": "모든 E는 B다. 어떤 B는 A다. 그러면 어떤 E는 A인가?",
+          "stdout": "E는 B는 B는 C는 C는 B는 D입니다."
+        },
+        {
+          "category": "probability",
+          "gold": "5/8",
+          "pred": "주시지1개웃고옆등다양한분야에서사용됩니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 5개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "주시지 1개, 웃고, 옆, , 등 다양한 분야에서 사용됩니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "A",
+          "pred": "B는C는C는D입니다",
+          "match": false,
+          "prompt": "B는 C보다 크고, C는 A보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "B는 C는 C는 D입니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "C입니다",
+          "match": false,
+          "prompt": "모든 E는 C다. 모든 C는 D다. 그러면 모든 E는 D인가?",
+          "stdout": "정답은 C입니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "A는E는E는C는E가있습니다",
+          "match": false,
+          "prompt": "모든 A는 E다. 어떤 E는 D다. 그러면 어떤 A는 D인가?",
+          "stdout": "A는 E는 E는 C는 E가 있습니다."
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "B는C는C는E는C는D입니다",
+          "match": false,
+          "prompt": "모든 C는 E다. 어떤 E는 B다. 그러면 어떤 C는 B인가?",
+          "stdout": "B는 C는 C는 E는 C는 D입니다."
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "이중시에는이리아라리겉등이있습니다",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 나혜석은 어렵게 일본 유학을 떠난 만큼 열심히 공부했고, 성적도 우수해 신문에 보도되기도 했다. 1910년대 일본 유학생은 많이 증가했으나 그는 몇안되는 여자 유학생이었으므로 그의 일본 유학 생활은 화제가 되어 국내에 보도되었다. 이후 교포여학생 모임인 '조선여자친목회'를 결성해 기관지를 내는 등 문필활동도 활발히 전개했다.\n질문: 나혜석과 일본 유학을 같이 간 여자 유학생이 많았다.",
+          "stdout": "이 중시에는 이리, 아, , 라, 리, 겉, 등이 있습니다."
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "C는C는C입니다",
+          "match": false,
+          "prompt": "C는 B보다 크고, B는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "C는 C는 C입니다."
+        },
+        {
+          "category": "sequence",
+          "gold": "1152",
+          "pred": "1.계산:\"A\"\"A\"319999799799499899899699699699",
+          "match": false,
+          "prompt": "수열 12, 36, 41, 123, 128, 384, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "1. 계산: \"A\", \"A\", 31, 99, 99, 79, 97, 994, 99, 89, 98, 996, 99, 69, 96, 99"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "E는E는E가E는E의E는E를E는E입니다",
+          "match": false,
+          "prompt": "모든 E는 A다. 어떤 A는 D다. 그러면 어떤 E는 D인가?",
+          "stdout": "E는 E는 E가 E는 E의 E는 E를 E는 E입니다."
+        },
+        {
+          "category": "probability",
+          "gold": "6/7",
+          "pred": "주시1개와1개입니다",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 6개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "주시 1개와 1개입니다."
+        },
+        {
+          "category": "sequence",
+          "gold": "558",
+          "pred": "\"\"라는문장은\"\"입니다",
+          "match": false,
+          "prompt": "수열 6, 18, 20, 60, 62, 186, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "\"\"라는 문장은 \"\"입니다."
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "이두가지은찍어요",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 리비아에서 가장 대중적인 음식은 쿠스쿠스로서 시리얼을 끓여서 대개는 보리나 밀로 요리하고 고기와 감자를 넣어 끓이는 것이다. 고기는 대개 양고기이지만 가끔씩 닭고기도 쓴다. 리비아는 올리브와 샤르바가 많이 나는데 샤르바는 리비아 요리의 매운 듯한 맛을 내는 중요 재료이다. 지중해 연안의 국가이기에 과일이나 채소가 많이 식사 비중을 차지한다.\n질문: 쿠스쿠스에 들어가는 고기는 대개 닭고기이다.",
+          "stdout": "이 두 가지 은 찍어요."
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_logic_v1_runF\\slm_best.pt",
+      "count": 512,
+      "exact_match": 0.556640625,
+      "parse_rate": 1.0,
+      "explicit_final_answer_rate": 0.986328125,
+      "by_category": {
+        "compare_smallest": {
+          "count": 92,
+          "exact_match": 1.0
+        },
+        "probability": {
+          "count": 110,
+          "exact_match": 0.3090909090909091
+        },
+        "sentence_relation_yesno": {
+          "count": 127,
+          "exact_match": 0.4409448818897638
+        },
+        "sequence": {
+          "count": 80,
+          "exact_match": 0.0
+        },
+        "syllogism": {
+          "count": 103,
+          "exact_match": 1.0
+        }
+      },
+      "samples": [
+        {
+          "category": "probability",
+          "gold": "2/5",
+          "pred": "2/3",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 2개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "전체 5개 중 파란 공이 2개이므로 확률은 2/5이고 기약분수는 2/3입니다. 답: 2/3"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "C",
+          "pred": "C",
+          "match": true,
+          "prompt": "D는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "D > B > B이므로 가장 작은 것은 C입니다. 답: C"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.\n문장2: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.",
+          "stdout": "문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 예"
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "240",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "규칙이 번갈아 ×2, +2이므로 다음 수는 240입니다. 답: 240"
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "240",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "규칙이 번갈아 ×2, +2이므로 다음 수는 240입니다. 답: 240"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 2019년 5월 7일에 규현이 제대하면서 슈퍼주니어의 멤버들이 군 복무를 마쳤다. 7월 11일에는 강인이 SM 및 Label SJ와의 계약을 유지했지만, 자발적으로 슈퍼주니어를 떠나게 되었다. 2019년 7월 12일, 슈퍼쇼 7S 월드투어를 제다 시즌 페스티벌의 일환으로 킹 압둘라 스포츠 시티로 가져가 아시아 최초로 K-Pop 단독 콘서트를 열었다.\n질문: 슈퍼주니어의 모든 멤버들은 군 복무를 마쳤는가?",
+          "stdout": "문장 관계를 비교하면 그렇게 판단할 수 있습니다. 답: 예"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "D",
+          "match": true,
+          "prompt": "B는 C보다 크고, C는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "B > C > C이므로 가장 작은 것은 D입니다. 답: D"
+        },
+        {
+          "category": "probability",
+          "gold": "4/5",
+          "pred": "4/7",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 4개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "전체 7개 중 파란 공이 4개이므로 확률은 4/7이고 기약분수는 4/7입니다. 답: 4/7"
+        },
+        {
+          "category": "sequence",
+          "gold": "192",
+          "pred": "98",
+          "match": false,
+          "prompt": "수열 9, 18, 22, 44, 48, 96, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "규칙이 번갈아 ×2, +3이므로 다음 수는 96입니다. 답: 98"
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "모든 C는 E다. 모든 E는 B다. 그러면 모든 C는 B인가?",
+          "stdout": "C가 모두 E에 포함되고, E가 모두 B에 포함되므로 예입니다. 답: 예"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "아니오",
+          "match": false,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: Callum O'brien(뉴질랜드 캠브리지 1982년 11월 4일 출생)은 프로 스쿼시 선수입니다.\n문장2: Callum O'brien(1982년 11월 4일 캠브리지 출생)은 뉴질랜드의 프로 스쿼시 선수입니다.",
+          "stdout": "문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 E는 B다. 어떤 B는 A다. 그러면 어떤 E는 A인가?",
+          "stdout": "어떤 B가 A라는 사실만으로 그 대상이 E인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "probability",
+          "gold": "5/8",
+          "pred": "5/7",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 5개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "전체 7개 중 파란 공이 5개이므로 확률은 5/8이고 기약분수는 5/7입니다. 답: 5/7"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "A",
+          "pred": "A",
+          "match": true,
+          "prompt": "B는 C보다 크고, C는 A보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "B > C > C이므로 가장 작은 것은 A입니다. 답: A"
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "모든 E는 C다. 모든 C는 D다. 그러면 모든 E는 D인가?",
+          "stdout": "E가 모두 C에 포함되고, C가 모두 D에 포함되므로 예입니다. 답: 예"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 A는 E다. 어떤 E는 D다. 그러면 어떤 A는 D인가?",
+          "stdout": "A가 D라는 사실만으로 그 대상이 A인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 C는 E다. 어떤 E는 B다. 그러면 어떤 C는 B인가?",
+          "stdout": "C가 B라는 사실만으로 그 대상이 C인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "아니오",
+          "match": true,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 나혜석은 어렵게 일본 유학을 떠난 만큼 열심히 공부했고, 성적도 우수해 신문에 보도되기도 했다. 1910년대 일본 유학생은 많이 증가했으나 그는 몇안되는 여자 유학생이었으므로 그의 일본 유학 생활은 화제가 되어 국내에 보도되었다. 이후 교포여학생 모임인 '조선여자친목회'를 결성해 기관지를 내는 등 문필활동도 활발히 전개했다.\n질문: 나혜석과 일본 유학을 같이 간 여자 유학생이 많았다.",
+          "stdout": "문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "D",
+          "match": true,
+          "prompt": "C는 B보다 크고, B는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "C > B > B이므로 가장 작은 것은 D입니다. 답: D"
+        },
+        {
+          "category": "sequence",
+          "gold": "1152",
+          "pred": "88",
+          "match": false,
+          "prompt": "수열 12, 36, 41, 123, 128, 384, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "규칙이 번갈아 ×3, +3이므로 다음 수는 96입니다. 답: 88"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 E는 A다. 어떤 A는 D다. 그러면 어떤 E는 D인가?",
+          "stdout": "어떤 A가 D라는 사실만으로 그 대상이 E인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "probability",
+          "gold": "6/7",
+          "pred": "6/7",
+          "match": true,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 6개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "6개 중 파란 공이 6개이므로 확률은 6/7이고 기약분수는 6/7입니다. 답: 6/7"
+        },
+        {
+          "category": "sequence",
+          "gold": "558",
+          "pred": "68",
+          "match": false,
+          "prompt": "수열 6, 18, 20, 60, 62, 186, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "규칙이 번갈아 ×3, +3이므로 다음 수는 76입니다. 답: 68"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "아니오",
+          "match": true,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 리비아에서 가장 대중적인 음식은 쿠스쿠스로서 시리얼을 끓여서 대개는 보리나 밀로 요리하고 고기와 감자를 넣어 끓이는 것이다. 고기는 대개 양고기이지만 가끔씩 닭고기도 쓴다. 리비아는 올리브와 샤르바가 많이 나는데 샤르바는 리비아 요리의 매운 듯한 맛을 내는 중요 재료이다. 지중해 연안의 국가이기에 과일이나 채소가 많이 식사 비중을 차지한다.\n질문: 쿠스쿠스에 들어가는 고기는 대개 닭고기이다.",
+          "stdout": "문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_logic_v1_runF\\slm_last.pt",
+      "count": 512,
+      "exact_match": 0.580078125,
+      "parse_rate": 1.0,
+      "explicit_final_answer_rate": 0.986328125,
+      "by_category": {
+        "compare_smallest": {
+          "count": 92,
+          "exact_match": 1.0
+        },
+        "probability": {
+          "count": 110,
+          "exact_match": 0.3090909090909091
+        },
+        "sentence_relation_yesno": {
+          "count": 127,
+          "exact_match": 0.5354330708661418
+        },
+        "sequence": {
+          "count": 80,
+          "exact_match": 0.0
+        },
+        "syllogism": {
+          "count": 103,
+          "exact_match": 1.0
+        }
+      },
+      "samples": [
+        {
+          "category": "probability",
+          "gold": "2/5",
+          "pred": "2/3",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 2개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "전체 5개 중 파란 공이 2개이므로 확률은 2/5이고 기약분수는 2/3입니다. 답: 2/3"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "C",
+          "pred": "C",
+          "match": true,
+          "prompt": "D는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "D > B > B이므로 가장 작은 것은 C입니다. 답: C"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.\n문장2: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.",
+          "stdout": "문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 예"
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "240",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "규칙이 번갈아 ×2, +2이므로 다음 수는 240입니다. 답: 240"
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "240",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "규칙이 번갈아 ×2, +2이므로 다음 수는 240입니다. 답: 240"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 2019년 5월 7일에 규현이 제대하면서 슈퍼주니어의 멤버들이 군 복무를 마쳤다. 7월 11일에는 강인이 SM 및 Label SJ와의 계약을 유지했지만, 자발적으로 슈퍼주니어를 떠나게 되었다. 2019년 7월 12일, 슈퍼쇼 7S 월드투어를 제다 시즌 페스티벌의 일환으로 킹 압둘라 스포츠 시티로 가져가 아시아 최초로 K-Pop 단독 콘서트를 열었다.\n질문: 슈퍼주니어의 모든 멤버들은 군 복무를 마쳤는가?",
+          "stdout": "문장 관계를 비교하면 그렇게 판단할 수 있습니다. 답: 예"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "D",
+          "match": true,
+          "prompt": "B는 C보다 크고, C는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "B > C > C이므로 가장 작은 것은 D입니다. 답: D"
+        },
+        {
+          "category": "probability",
+          "gold": "4/5",
+          "pred": "4/7",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 4개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "전체 7개 중 파란 공이 4개이므로 확률은 4/7이고 기약분수는 4/7입니다. 답: 4/7"
+        },
+        {
+          "category": "sequence",
+          "gold": "192",
+          "pred": "98",
+          "match": false,
+          "prompt": "수열 9, 18, 22, 44, 48, 96, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "규칙이 번갈아 ×2, +3이므로 다음 수는 96입니다. 답: 98"
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "모든 C는 E다. 모든 E는 B다. 그러면 모든 C는 B인가?",
+          "stdout": "C가 모두 E에 포함되고, E가 모두 B에 포함되므로 예입니다. 답: 예"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "아니오",
+          "match": false,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: Callum O'brien(뉴질랜드 캠브리지 1982년 11월 4일 출생)은 프로 스쿼시 선수입니다.\n문장2: Callum O'brien(1982년 11월 4일 캠브리지 출생)은 뉴질랜드의 프로 스쿼시 선수입니다.",
+          "stdout": "문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 E는 B다. 어떤 B는 A다. 그러면 어떤 E는 A인가?",
+          "stdout": "어떤 B가 A라는 사실만으로 그 대상이 E인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "probability",
+          "gold": "5/8",
+          "pred": "5/7",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 5개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "전체 7개 중 파란 공이 5개이므로 확률은 5/8이고 기약분수는 5/7입니다. 답: 5/7"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "A",
+          "pred": "A",
+          "match": true,
+          "prompt": "B는 C보다 크고, C는 A보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "B > C > C이므로 가장 작은 것은 A입니다. 답: A"
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "모든 E는 C다. 모든 C는 D다. 그러면 모든 E는 D인가?",
+          "stdout": "E가 모두 C에 포함되고, C가 모두 D에 포함되므로 예입니다. 답: 예"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 A는 E다. 어떤 E는 D다. 그러면 어떤 A는 D인가?",
+          "stdout": "A가 D라는 사실만으로 그 대상이 A인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 C는 E다. 어떤 E는 B다. 그러면 어떤 C는 B인가?",
+          "stdout": "C가 B라는 사실만으로 그 대상이 C인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "아니오",
+          "match": true,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 나혜석은 어렵게 일본 유학을 떠난 만큼 열심히 공부했고, 성적도 우수해 신문에 보도되기도 했다. 1910년대 일본 유학생은 많이 증가했으나 그는 몇안되는 여자 유학생이었으므로 그의 일본 유학 생활은 화제가 되어 국내에 보도되었다. 이후 교포여학생 모임인 '조선여자친목회'를 결성해 기관지를 내는 등 문필활동도 활발히 전개했다.\n질문: 나혜석과 일본 유학을 같이 간 여자 유학생이 많았다.",
+          "stdout": "문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "D",
+          "match": true,
+          "prompt": "C는 B보다 크고, B는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "C > B > B이므로 가장 작은 것은 D입니다. 답: D"
+        },
+        {
+          "category": "sequence",
+          "gold": "1152",
+          "pred": "98",
+          "match": false,
+          "prompt": "수열 12, 36, 41, 123, 128, 384, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "규칙이 번갈아 ×3, +3이므로 다음 수는 96입니다. 답: 98"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 E는 A다. 어떤 A는 D다. 그러면 어떤 E는 D인가?",
+          "stdout": "어떤 A가 D라는 사실만으로 그 대상이 E인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "probability",
+          "gold": "6/7",
+          "pred": "6/7",
+          "match": true,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 6개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "6개 중 파란 공이 6개이므로 확률은 6/7이고 기약분수는 6/7입니다. 답: 6/7"
+        },
+        {
+          "category": "sequence",
+          "gold": "558",
+          "pred": "56",
+          "match": false,
+          "prompt": "수열 6, 18, 20, 60, 62, 186, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "규칙이 번갈아 ×3, +3이므로 다음 수는 56입니다. 답: 56"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "아니오",
+          "match": true,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 리비아에서 가장 대중적인 음식은 쿠스쿠스로서 시리얼을 끓여서 대개는 보리나 밀로 요리하고 고기와 감자를 넣어 끓이는 것이다. 고기는 대개 양고기이지만 가끔씩 닭고기도 쓴다. 리비아는 올리브와 샤르바가 많이 나는데 샤르바는 리비아 요리의 매운 듯한 맛을 내는 중요 재료이다. 지중해 연안의 국가이기에 과일이나 채소가 많이 식사 비중을 차지한다.\n질문: 쿠스쿠스에 들어가는 고기는 대개 닭고기이다.",
+          "stdout": "문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_logic_tutor_v1_runF\\slm_best.pt",
+      "count": 512,
+      "exact_match": 0.5390625,
+      "parse_rate": 1.0,
+      "explicit_final_answer_rate": 1.0,
+      "by_category": {
+        "compare_smallest": {
+          "count": 92,
+          "exact_match": 1.0
+        },
+        "probability": {
+          "count": 110,
+          "exact_match": 0.2
+        },
+        "sentence_relation_yesno": {
+          "count": 127,
+          "exact_match": 0.4645669291338583
+        },
+        "sequence": {
+          "count": 80,
+          "exact_match": 0.0
+        },
+        "syllogism": {
+          "count": 103,
+          "exact_match": 1.0
+        }
+      },
+      "samples": [
+        {
+          "category": "probability",
+          "gold": "2/5",
+          "pred": "1/2",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 2개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 6개 중 파란 공이 2개이므로 확률은 2/5이고 기약분수는 1/2입니다. 답: 1/2"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "C",
+          "pred": "C",
+          "match": true,
+          "prompt": "D는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: D > B > C이므로 가장 작은 것은 C입니다. 답: C"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.\n문장2: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.",
+          "stdout": "이유: 문장 관계를 비교하면 그렇게 판단할 수 있습니다. 답: 예"
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "56",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×2, +2이므로 다음 수는 56입니다. 답: 56"
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "56",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×2, +2이므로 다음 수는 56입니다. 답: 56"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "아니오",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 2019년 5월 7일에 규현이 제대하면서 슈퍼주니어의 멤버들이 군 복무를 마쳤다. 7월 11일에는 강인이 SM 및 Label SJ와의 계약을 유지했지만, 자발적으로 슈퍼주니어를 떠나게 되었다. 2019년 7월 12일, 슈퍼쇼 7S 월드투어를 제다 시즌 페스티벌의 일환으로 킹 압둘라 스포츠 시티로 가져가 아시아 최초로 K-Pop 단독 콘서트를 열었다.\n질문: 슈퍼주니어의 모든 멤버들은 군 복무를 마쳤는가?",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "D",
+          "match": true,
+          "prompt": "B는 C보다 크고, C는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: B > C > D이므로 가장 작은 것은 D입니다. 답: D"
+        },
+        {
+          "category": "probability",
+          "gold": "4/5",
+          "pred": "4/7",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 4개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 5개 중 파란 공이 4개이므로 확률은 4/7이고 기약분수는 4/7입니다. 답: 4/7"
+        },
+        {
+          "category": "sequence",
+          "gold": "192",
+          "pred": "98",
+          "match": false,
+          "prompt": "수열 9, 18, 22, 44, 48, 96, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×2, +3이므로 다음 수는 96입니다. 답: 98"
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "모든 C는 E다. 모든 E는 B다. 그러면 모든 C는 B인가?",
+          "stdout": "이유: C가 모두 E에 포함되고, E가 모두 B에 포함되므로 예입니다. 답: 예"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "아니오",
+          "match": false,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: Callum O'brien(뉴질랜드 캠브리지 1982년 11월 4일 출생)은 프로 스쿼시 선수입니다.\n문장2: Callum O'brien(1982년 11월 4일 캠브리지 출생)은 뉴질랜드의 프로 스쿼시 선수입니다.",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 E는 B다. 어떤 B는 A다. 그러면 어떤 E는 A인가?",
+          "stdout": "이유: 어떤 B가 A라는 사실만으로 그 대상이 E인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "probability",
+          "gold": "5/8",
+          "pred": "5/7",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 5개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 7개 중 파란 공이 5개이므로 확률은 5/8이고 기약분수는 5/7입니다. 답: 5/7"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "A",
+          "pred": "A",
+          "match": true,
+          "prompt": "B는 C보다 크고, C는 A보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: B > C > A이므로 가장 작은 것은 A입니다. 답: A"
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "모든 E는 C다. 모든 C는 D다. 그러면 모든 E는 D인가?",
+          "stdout": "이유: E가 모두 C에 포함되고, C가 모두 D에 포함되므로 예입니다. 답: 예"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 A는 E다. 어떤 E는 D다. 그러면 어떤 A는 D인가?",
+          "stdout": "이유: 어떤 E가 D라는 사실만으로 그 대상이 A인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 C는 E다. 어떤 E는 B다. 그러면 어떤 C는 B인가?",
+          "stdout": "이유: 어떤 E가 B라는 사실만으로 그 대상이 C인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "아니오",
+          "match": true,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 나혜석은 어렵게 일본 유학을 떠난 만큼 열심히 공부했고, 성적도 우수해 신문에 보도되기도 했다. 1910년대 일본 유학생은 많이 증가했으나 그는 몇안되는 여자 유학생이었으므로 그의 일본 유학 생활은 화제가 되어 국내에 보도되었다. 이후 교포여학생 모임인 '조선여자친목회'를 결성해 기관지를 내는 등 문필활동도 활발히 전개했다.\n질문: 나혜석과 일본 유학을 같이 간 여자 유학생이 많았다.",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "D",
+          "match": true,
+          "prompt": "C는 B보다 크고, B는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: C > B > D이므로 가장 작은 것은 D입니다. 답: D"
+        },
+        {
+          "category": "sequence",
+          "gold": "1152",
+          "pred": "78",
+          "match": false,
+          "prompt": "수열 12, 36, 41, 123, 128, 384, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×3, +3이므로 다음 수는 96입니다. 답: 78"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 E는 A다. 어떤 A는 D다. 그러면 어떤 E는 D인가?",
+          "stdout": "이유: 어떤 A가 D라는 사실만으로 그 대상이 E인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "probability",
+          "gold": "6/7",
+          "pred": "3/7",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 6개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 6개 중 파란 공이 6개이므로 확률은 6/7이고 기약분수는 3/7입니다. 답: 3/7"
+        },
+        {
+          "category": "sequence",
+          "gold": "558",
+          "pred": "56",
+          "match": false,
+          "prompt": "수열 6, 18, 20, 60, 62, 186, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×3, +3이므로 다음 수는 56입니다. 답: 56"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "아니오",
+          "match": true,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 리비아에서 가장 대중적인 음식은 쿠스쿠스로서 시리얼을 끓여서 대개는 보리나 밀로 요리하고 고기와 감자를 넣어 끓이는 것이다. 고기는 대개 양고기이지만 가끔씩 닭고기도 쓴다. 리비아는 올리브와 샤르바가 많이 나는데 샤르바는 리비아 요리의 매운 듯한 맛을 내는 중요 재료이다. 지중해 연안의 국가이기에 과일이나 채소가 많이 식사 비중을 차지한다.\n질문: 쿠스쿠스에 들어가는 고기는 대개 닭고기이다.",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_logic_tutor_v1_runF\\slm_last.pt",
+      "count": 512,
+      "exact_match": 0.5390625,
+      "parse_rate": 1.0,
+      "explicit_final_answer_rate": 1.0,
+      "by_category": {
+        "compare_smallest": {
+          "count": 92,
+          "exact_match": 1.0
+        },
+        "probability": {
+          "count": 110,
+          "exact_match": 0.2
+        },
+        "sentence_relation_yesno": {
+          "count": 127,
+          "exact_match": 0.4645669291338583
+        },
+        "sequence": {
+          "count": 80,
+          "exact_match": 0.0
+        },
+        "syllogism": {
+          "count": 103,
+          "exact_match": 1.0
+        }
+      },
+      "samples": [
+        {
+          "category": "probability",
+          "gold": "2/5",
+          "pred": "1/2",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 2개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 6개 중 파란 공이 2개이므로 확률은 2/5이고 기약분수는 1/2입니다. 답: 1/2"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "C",
+          "pred": "C",
+          "match": true,
+          "prompt": "D는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: D > B > C이므로 가장 작은 것은 C입니다. 답: C"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.\n문장2: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.",
+          "stdout": "이유: 문장 관계를 비교하면 그렇게 판단할 수 있습니다. 답: 예"
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "56",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×2, +2이므로 다음 수는 56입니다. 답: 56"
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "56",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×2, +2이므로 다음 수는 56입니다. 답: 56"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "아니오",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 2019년 5월 7일에 규현이 제대하면서 슈퍼주니어의 멤버들이 군 복무를 마쳤다. 7월 11일에는 강인이 SM 및 Label SJ와의 계약을 유지했지만, 자발적으로 슈퍼주니어를 떠나게 되었다. 2019년 7월 12일, 슈퍼쇼 7S 월드투어를 제다 시즌 페스티벌의 일환으로 킹 압둘라 스포츠 시티로 가져가 아시아 최초로 K-Pop 단독 콘서트를 열었다.\n질문: 슈퍼주니어의 모든 멤버들은 군 복무를 마쳤는가?",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "D",
+          "match": true,
+          "prompt": "B는 C보다 크고, C는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: B > C > D이므로 가장 작은 것은 D입니다. 답: D"
+        },
+        {
+          "category": "probability",
+          "gold": "4/5",
+          "pred": "4/7",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 4개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 5개 중 파란 공이 4개이므로 확률은 4/7이고 기약분수는 4/7입니다. 답: 4/7"
+        },
+        {
+          "category": "sequence",
+          "gold": "192",
+          "pred": "98",
+          "match": false,
+          "prompt": "수열 9, 18, 22, 44, 48, 96, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×2, +3이므로 다음 수는 96입니다. 답: 98"
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "모든 C는 E다. 모든 E는 B다. 그러면 모든 C는 B인가?",
+          "stdout": "이유: C가 모두 E에 포함되고, E가 모두 B에 포함되므로 예입니다. 답: 예"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "아니오",
+          "match": false,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: Callum O'brien(뉴질랜드 캠브리지 1982년 11월 4일 출생)은 프로 스쿼시 선수입니다.\n문장2: Callum O'brien(1982년 11월 4일 캠브리지 출생)은 뉴질랜드의 프로 스쿼시 선수입니다.",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 E는 B다. 어떤 B는 A다. 그러면 어떤 E는 A인가?",
+          "stdout": "이유: 어떤 B가 A라는 사실만으로 그 대상이 E인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "probability",
+          "gold": "5/8",
+          "pred": "5/7",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 5개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 7개 중 파란 공이 5개이므로 확률은 5/8이고 기약분수는 5/7입니다. 답: 5/7"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "A",
+          "pred": "A",
+          "match": true,
+          "prompt": "B는 C보다 크고, C는 A보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: B > C > A이므로 가장 작은 것은 A입니다. 답: A"
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "모든 E는 C다. 모든 C는 D다. 그러면 모든 E는 D인가?",
+          "stdout": "이유: E가 모두 C에 포함되고, C가 모두 D에 포함되므로 예입니다. 답: 예"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 A는 E다. 어떤 E는 D다. 그러면 어떤 A는 D인가?",
+          "stdout": "이유: 어떤 E가 D라는 사실만으로 그 대상이 A인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 C는 E다. 어떤 E는 B다. 그러면 어떤 C는 B인가?",
+          "stdout": "이유: 어떤 E가 B라는 사실만으로 그 대상이 C인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "아니오",
+          "match": true,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 나혜석은 어렵게 일본 유학을 떠난 만큼 열심히 공부했고, 성적도 우수해 신문에 보도되기도 했다. 1910년대 일본 유학생은 많이 증가했으나 그는 몇안되는 여자 유학생이었으므로 그의 일본 유학 생활은 화제가 되어 국내에 보도되었다. 이후 교포여학생 모임인 '조선여자친목회'를 결성해 기관지를 내는 등 문필활동도 활발히 전개했다.\n질문: 나혜석과 일본 유학을 같이 간 여자 유학생이 많았다.",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "D",
+          "match": true,
+          "prompt": "C는 B보다 크고, B는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: C > B > D이므로 가장 작은 것은 D입니다. 답: D"
+        },
+        {
+          "category": "sequence",
+          "gold": "1152",
+          "pred": "78",
+          "match": false,
+          "prompt": "수열 12, 36, 41, 123, 128, 384, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×3, +3이므로 다음 수는 96입니다. 답: 78"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 E는 A다. 어떤 A는 D다. 그러면 어떤 E는 D인가?",
+          "stdout": "이유: 어떤 A가 D라는 사실만으로 그 대상이 E인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "probability",
+          "gold": "6/7",
+          "pred": "3/7",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 6개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 6개 중 파란 공이 6개이므로 확률은 6/7이고 기약분수는 3/7입니다. 답: 3/7"
+        },
+        {
+          "category": "sequence",
+          "gold": "558",
+          "pred": "56",
+          "match": false,
+          "prompt": "수열 6, 18, 20, 60, 62, 186, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×3, +3이므로 다음 수는 56입니다. 답: 56"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "아니오",
+          "match": true,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 리비아에서 가장 대중적인 음식은 쿠스쿠스로서 시리얼을 끓여서 대개는 보리나 밀로 요리하고 고기와 감자를 넣어 끓이는 것이다. 고기는 대개 양고기이지만 가끔씩 닭고기도 쓴다. 리비아는 올리브와 샤르바가 많이 나는데 샤르바는 리비아 요리의 매운 듯한 맛을 내는 중요 재료이다. 지중해 연안의 국가이기에 과일이나 채소가 많이 식사 비중을 차지한다.\n질문: 쿠스쿠스에 들어가는 고기는 대개 닭고기이다.",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_general_repair_v1_runF\\slm_best.pt",
+      "count": 512,
+      "exact_match": 0.56640625,
+      "parse_rate": 1.0,
+      "explicit_final_answer_rate": 1.0,
+      "by_category": {
+        "compare_smallest": {
+          "count": 92,
+          "exact_match": 1.0
+        },
+        "probability": {
+          "count": 110,
+          "exact_match": 0.2727272727272727
+        },
+        "sentence_relation_yesno": {
+          "count": 127,
+          "exact_match": 0.5118110236220472
+        },
+        "sequence": {
+          "count": 80,
+          "exact_match": 0.0
+        },
+        "syllogism": {
+          "count": 103,
+          "exact_match": 1.0
+        }
+      },
+      "samples": [
+        {
+          "category": "probability",
+          "gold": "2/5",
+          "pred": "1/2",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 2개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 6개 중 파란 공이 2개이므로 확률은 2/5이고 기약분수는 1/2입니다. 답: 1/2"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "C",
+          "pred": "C",
+          "match": true,
+          "prompt": "D는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: D > B > C이므로 가장 작은 것은 C입니다. 답: C"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.\n문장2: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 예"
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "56",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×2, +2이므로 다음 수는 56입니다. 답: 56"
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "56",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×2, +2이므로 다음 수는 56입니다. 답: 56"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "아니오",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 2019년 5월 7일에 규현이 제대하면서 슈퍼주니어의 멤버들이 군 복무를 마쳤다. 7월 11일에는 강인이 SM 및 Label SJ와의 계약을 유지했지만, 자발적으로 슈퍼주니어를 떠나게 되었다. 2019년 7월 12일, 슈퍼쇼 7S 월드투어를 제다 시즌 페스티벌의 일환으로 킹 압둘라 스포츠 시티로 가져가 아시아 최초로 K-Pop 단독 콘서트를 열었다.\n질문: 슈퍼주니어의 모든 멤버들은 군 복무를 마쳤는가?",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "D",
+          "match": true,
+          "prompt": "B는 C보다 크고, C는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: B > C > D이므로 가장 작은 것은 D입니다. 답: D"
+        },
+        {
+          "category": "probability",
+          "gold": "4/5",
+          "pred": "4/7",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 4개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 5개 중 파란 공이 4개이므로 확률은 4/7이고 기약분수는 4/7입니다. 답: 4/7"
+        },
+        {
+          "category": "sequence",
+          "gold": "192",
+          "pred": "98",
+          "match": false,
+          "prompt": "수열 9, 18, 22, 44, 48, 96, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×2, +3이므로 다음 수는 96입니다. 답: 98"
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "모든 C는 E다. 모든 E는 B다. 그러면 모든 C는 B인가?",
+          "stdout": "이유: C가 모두 E에 포함되고, E가 모두 B에 포함되므로 예입니다. 답: 예"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "아니오",
+          "match": false,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: Callum O'brien(뉴질랜드 캠브리지 1982년 11월 4일 출생)은 프로 스쿼시 선수입니다.\n문장2: Callum O'brien(1982년 11월 4일 캠브리지 출생)은 뉴질랜드의 프로 스쿼시 선수입니다.",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 E는 B다. 어떤 B는 A다. 그러면 어떤 E는 A인가?",
+          "stdout": "이유: 어떤 B가 A라는 사실만으로 그 대상이 E인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "probability",
+          "gold": "5/8",
+          "pred": "5/8",
+          "match": true,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 5개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 7개 중 파란 공이 5개이므로 확률은 5/8이고 기약분수는 5/8입니다. 답: 5/8"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "A",
+          "pred": "A",
+          "match": true,
+          "prompt": "B는 C보다 크고, C는 A보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: B > C > A이므로 가장 작은 것은 A입니다. 답: A"
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "모든 E는 C다. 모든 C는 D다. 그러면 모든 E는 D인가?",
+          "stdout": "이유: E가 모두 C에 포함되고, C가 모두 D에 포함되므로 예입니다. 답: 예"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 A는 E다. 어떤 E는 D다. 그러면 어떤 A는 D인가?",
+          "stdout": "이유: 어떤 E가 D라는 사실만으로 그 대상이 A인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 C는 E다. 어떤 E는 B다. 그러면 어떤 C는 B인가?",
+          "stdout": "이유: 어떤 E가 B라는 사실만으로 그 대상이 C인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "아니오",
+          "match": true,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 나혜석은 어렵게 일본 유학을 떠난 만큼 열심히 공부했고, 성적도 우수해 신문에 보도되기도 했다. 1910년대 일본 유학생은 많이 증가했으나 그는 몇안되는 여자 유학생이었으므로 그의 일본 유학 생활은 화제가 되어 국내에 보도되었다. 이후 교포여학생 모임인 '조선여자친목회'를 결성해 기관지를 내는 등 문필활동도 활발히 전개했다.\n질문: 나혜석과 일본 유학을 같이 간 여자 유학생이 많았다.",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "D",
+          "match": true,
+          "prompt": "C는 B보다 크고, B는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: C > B > D이므로 가장 작은 것은 D입니다. 답: D"
+        },
+        {
+          "category": "sequence",
+          "gold": "1152",
+          "pred": "98",
+          "match": false,
+          "prompt": "수열 12, 36, 41, 123, 128, 384, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×3, +3이므로 다음 수는 96입니다. 답: 98"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 E는 A다. 어떤 A는 D다. 그러면 어떤 E는 D인가?",
+          "stdout": "이유: 어떤 A가 D라는 사실만으로 그 대상이 E인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "probability",
+          "gold": "6/7",
+          "pred": "3/7",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 6개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 6개 중 파란 공이 6개이므로 확률은 6/7이고 기약분수는 3/7입니다. 답: 3/7"
+        },
+        {
+          "category": "sequence",
+          "gold": "558",
+          "pred": "56",
+          "match": false,
+          "prompt": "수열 6, 18, 20, 60, 62, 186, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×3, +2이므로 다음 수는 56입니다. 답: 56"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "아니오",
+          "match": true,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 리비아에서 가장 대중적인 음식은 쿠스쿠스로서 시리얼을 끓여서 대개는 보리나 밀로 요리하고 고기와 감자를 넣어 끓이는 것이다. 고기는 대개 양고기이지만 가끔씩 닭고기도 쓴다. 리비아는 올리브와 샤르바가 많이 나는데 샤르바는 리비아 요리의 매운 듯한 맛을 내는 중요 재료이다. 지중해 연안의 국가이기에 과일이나 채소가 많이 식사 비중을 차지한다.\n질문: 쿠스쿠스에 들어가는 고기는 대개 닭고기이다.",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_general_repair_v1_runF\\slm_last.pt",
+      "count": 512,
+      "exact_match": 0.564453125,
+      "parse_rate": 1.0,
+      "explicit_final_answer_rate": 0.998046875,
+      "by_category": {
+        "compare_smallest": {
+          "count": 92,
+          "exact_match": 1.0
+        },
+        "probability": {
+          "count": 110,
+          "exact_match": 0.2727272727272727
+        },
+        "sentence_relation_yesno": {
+          "count": 127,
+          "exact_match": 0.5039370078740157
+        },
+        "sequence": {
+          "count": 80,
+          "exact_match": 0.0
+        },
+        "syllogism": {
+          "count": 103,
+          "exact_match": 1.0
+        }
+      },
+      "samples": [
+        {
+          "category": "probability",
+          "gold": "2/5",
+          "pred": "1/2",
+          "match": false,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 2개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 6개 중 파란 공이 2개이므로 확률은 2/5이고 기약분수는 1/2입니다. 답: 1/2"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "C",
+          "pred": "C",
+          "match": true,
+          "prompt": "D는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: D > B > C이므로 가장 작은 것은 C입니다. 답: C"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.\n문장2: 보행자와 자전거는 허용되지 않지만 보도에서 허용 될 수 있습니다.",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 예"
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "56",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×2, +2이므로 다음 수는 56입니다. 답: 56"
+        },
+        {
+          "category": "sequence",
+          "gold": "80",
+          "pred": "56",
+          "match": false,
+          "prompt": "수열 2, 4, 8, 16, 20, 40, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×2, +2이므로 다음 수는 56입니다. 답: 56"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "아니오",
+          "match": false,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 2019년 5월 7일에 규현이 제대하면서 슈퍼주니어의 멤버들이 군 복무를 마쳤다. 7월 11일에는 강인이 SM 및 Label SJ와의 계약을 유지했지만, 자발적으로 슈퍼주니어를 떠나게 되었다. 2019년 7월 12일, 슈퍼쇼 7S 월드투어를 제다 시즌 페스티벌의 일환으로 킹 압둘라 스포츠 시티로 가져가 아시아 최초로 K-Pop 단독 콘서트를 열었다.\n질문: 슈퍼주니어의 모든 멤버들은 군 복무를 마쳤는가?",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "D",
+          "match": true,
+          "prompt": "B는 C보다 크고, C는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: B > C > D이므로 가장 작은 것은 D입니다. 답: D"
+        },
+        {
+          "category": "probability",
+          "gold": "4/5",
+          "pred": "4/7",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 4개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 5개 중 파란 공이 4개이므로 확률은 4/7이고 기약분수는 4/7입니다. 답: 4/7"
+        },
+        {
+          "category": "sequence",
+          "gold": "192",
+          "pred": "98",
+          "match": false,
+          "prompt": "수열 9, 18, 22, 44, 48, 96, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×2, +3이므로 다음 수는 96입니다. 답: 98"
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "모든 C는 E다. 모든 E는 B다. 그러면 모든 C는 B인가?",
+          "stdout": "이유: C가 모두 E에 포함되고, E가 모두 B에 포함되므로 예입니다. 답: 예"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "예",
+          "pred": "아니오",
+          "match": false,
+          "prompt": "다음 두 문장이 같은 의미인지 판단하라. 예 또는 아니오만 답하라.\n문장1: Callum O'brien(뉴질랜드 캠브리지 1982년 11월 4일 출생)은 프로 스쿼시 선수입니다.\n문장2: Callum O'brien(1982년 11월 4일 캠브리지 출생)은 뉴질랜드의 프로 스쿼시 선수입니다.",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 E는 B다. 어떤 B는 A다. 그러면 어떤 E는 A인가?",
+          "stdout": "이유: 어떤 B가 A라는 사실만으로 그 대상이 E인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "probability",
+          "gold": "5/8",
+          "pred": "5/8",
+          "match": true,
+          "prompt": "주머니에 빨간 공 3개와 파란 공 5개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 7개 중 파란 공이 5개이므로 확률은 5/8이고 기약분수는 5/8입니다. 답: 5/8"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "A",
+          "pred": "A",
+          "match": true,
+          "prompt": "B는 C보다 크고, C는 A보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: B > C > A이므로 가장 작은 것은 A입니다. 답: A"
+        },
+        {
+          "category": "syllogism",
+          "gold": "예",
+          "pred": "예",
+          "match": true,
+          "prompt": "모든 E는 C다. 모든 C는 D다. 그러면 모든 E는 D인가?",
+          "stdout": "이유: E가 모두 C에 포함되고, C가 모두 D에 포함되므로 예입니다. 답: 예"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 A는 E다. 어떤 E는 D다. 그러면 어떤 A는 D인가?",
+          "stdout": "이유: 어떤 E가 D라는 사실만으로 그 대상이 A인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 C는 E다. 어떤 E는 B다. 그러면 어떤 C는 B인가?",
+          "stdout": "이유: 어떤 E가 B라는 사실만으로 그 대상이 C인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "아니오",
+          "match": true,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 나혜석은 어렵게 일본 유학을 떠난 만큼 열심히 공부했고, 성적도 우수해 신문에 보도되기도 했다. 1910년대 일본 유학생은 많이 증가했으나 그는 몇안되는 여자 유학생이었으므로 그의 일본 유학 생활은 화제가 되어 국내에 보도되었다. 이후 교포여학생 모임인 '조선여자친목회'를 결성해 기관지를 내는 등 문필활동도 활발히 전개했다.\n질문: 나혜석과 일본 유학을 같이 간 여자 유학생이 많았다.",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        },
+        {
+          "category": "compare_smallest",
+          "gold": "D",
+          "pred": "D",
+          "match": true,
+          "prompt": "C는 B보다 크고, B는 D보다 크다. 가장 작은 것은 누구인가?",
+          "stdout": "이유: C > B > D이므로 가장 작은 것은 D입니다. 답: D"
+        },
+        {
+          "category": "sequence",
+          "gold": "1152",
+          "pred": "98",
+          "match": false,
+          "prompt": "수열 12, 36, 41, 123, 128, 384, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×3, +3이므로 다음 수는 96입니다. 답: 98"
+        },
+        {
+          "category": "syllogism",
+          "gold": "보장할수없습니다",
+          "pred": "보장할수없습니다",
+          "match": true,
+          "prompt": "모든 E는 A다. 어떤 A는 D다. 그러면 어떤 E는 D인가?",
+          "stdout": "이유: 어떤 A가 D라는 사실만으로 그 대상이 E인지 알 수 없으므로 보장할 수 없습니다. 답: 보장할 수 없습니다"
+        },
+        {
+          "category": "probability",
+          "gold": "6/7",
+          "pred": "3/7",
+          "match": false,
+          "prompt": "주머니에 빨간 공 1개와 파란 공 6개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은?",
+          "stdout": "이유: 전체 6개 중 파란 공이 6개이므로 확률은 6/7이고 기약분수는 3/7입니다. 답: 3/7"
+        },
+        {
+          "category": "sequence",
+          "gold": "558",
+          "pred": "56",
+          "match": false,
+          "prompt": "수열 6, 18, 20, 60, 62, 186, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "stdout": "이유: 규칙이 번갈아 ×3, +2이므로 다음 수는 56입니다. 답: 56"
+        },
+        {
+          "category": "sentence_relation_yesno",
+          "gold": "아니오",
+          "pred": "아니오",
+          "match": true,
+          "prompt": "다음 문단을 읽고 질문에 예 또는 아니오만 답하라.\n문단: 리비아에서 가장 대중적인 음식은 쿠스쿠스로서 시리얼을 끓여서 대개는 보리나 밀로 요리하고 고기와 감자를 넣어 끓이는 것이다. 고기는 대개 양고기이지만 가끔씩 닭고기도 쓴다. 리비아는 올리브와 샤르바가 많이 나는데 샤르바는 리비아 요리의 매운 듯한 맛을 내는 중요 재료이다. 지중해 연안의 국가이기에 과일이나 채소가 많이 식사 비중을 차지한다.\n질문: 쿠스쿠스에 들어가는 고기는 대개 닭고기이다.",
+          "stdout": "이유: 문장 관계를 비교하면 같지 않다고 판단할 수 있습니다. 답: 아니오"
+        }
+      ]
+    }
+  ]
+}

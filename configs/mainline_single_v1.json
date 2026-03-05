@@ -1,0 +1,41 @@
+﻿{
+  "experiment_id": "mainline_single_v1",
+  "goal": "single_pure_model",
+  "priority_capability": "logic",
+  "execution": {
+    "run_train": true,
+    "run_tag": "runG",
+    "phase1_from_scratch": false,
+    "phase1_steps": 2200,
+    "phase2_steps": 4200,
+    "phase3_steps": 1800,
+    "reset_step_on_resume": true,
+    "train_phases": [
+      "phase1_general",
+      "phase2_logic",
+      "phase3_general_repair"
+    ]
+  },
+  "base_candidates": {
+    "general_logic": [
+      "artifacts_mainline_suite_fix_v1_runA/slm_best.pt",
+      "artifacts_mainline_general_repair_v1_runF/slm_best.pt",
+      "artifacts_bigslm_50m_safe_fromscratch_v1_runC_stage2/slm_last.pt",
+      "artifacts_bigslm_50m_safe_fromscratch_v1_runC_stage2/slm_best.pt"
+    ],
+    "logic_reference": [
+      "artifacts_bigslm_50m_safe_fromscratch_v1_runC_stage3/slm_last.pt",
+      "artifacts_bigslm_50m_safe_fromscratch_v1_runC_stage3/slm_best.pt"
+    ],
+    "arithmetic_reference": [
+      "artifacts_teacher_arith_pure_mix_fromscratch_v3_runA/slm_last.pt",
+      "artifacts_teacher_arith_pure_mix_fromscratch_v3_runA/slm_best.pt"
+    ]
+  },
+  "promotion": {
+    "logic_exact_min": 0.10,
+    "general_prompt_suite_pass_rate_min": 0.75,
+    "collapse_rate_max": 0.10,
+    "definition_relevance_score_min": 0.35
+  }
+}

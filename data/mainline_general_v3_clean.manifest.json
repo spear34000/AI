@@ -1,0 +1,21 @@
+{
+  "train_out": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_general_v3_clean_train.jsonl",
+  "eval_out": "C:\\Users\\User\\Desktop\\test_ai\\data\\mainline_general_v3_clean_eval.jsonl",
+  "train_rows": 84381,
+  "eval_rows": 1722,
+  "seed": 42,
+  "sources": {
+    "repair_ko_direct_v3": 70000,
+    "repair_ko_only_clean_v1": 70000,
+    "final_ko_chat": 79868,
+    "final_ko_fluency": 82090,
+    "final_ko_coding": 18,
+    "primer_rows": 15000
+  },
+  "filters": {
+    "remove_arithmetic_contamination": true,
+    "remove_repetitive_suffix_style": true,
+    "remove_code_like_samples": true,
+    "max_output_len": 240
+  }
+}

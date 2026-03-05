@@ -1,0 +1,25 @@
+﻿{
+  "benchmarks": [
+    {
+      "name": "logic_exact_v3",
+      "type": "exact",
+      "data_path": "data/mainline_logic_verified_v3_eval.jsonl",
+      "limit": 512,
+      "device": "cuda"
+    },
+    {
+      "name": "general_prompt_suite_v3",
+      "type": "prompt_suite",
+      "suite_path": "data/mainline_prompt_suite_v1.json",
+      "max_new_tokens": 96,
+      "device": "cuda"
+    },
+    {
+      "name": "logic_reasoning_readout_v1",
+      "type": "prompt_suite",
+      "suite_path": "data/mainline_logic_reasoning_readout_v1.json",
+      "max_new_tokens": 96,
+      "device": "cuda"
+    }
+  ]
+}

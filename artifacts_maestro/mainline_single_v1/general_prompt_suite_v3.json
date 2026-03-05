@@ -1,0 +1,896 @@
+{
+  "finished": true,
+  "count": 10,
+  "results": [
+    {
+      "checkpoint": "artifacts_bigslm_50m_safe_fromscratch_v1_runC_stage2\\slm_last.pt",
+      "items": [
+        {
+          "id": "chat_hi",
+          "prompt": "ㅎㅇ",
+          "returncode": 0,
+          "stdout": "неральный подить встома.",
+          "stderr": ""
+        },
+        {
+          "id": "chat_intro",
+          "prompt": "한국어로 한 문장 인사",
+          "returncode": 0,
+          "stdout": "한 줄로 말하면 파이썬은 생산성이 높고 빠르게 언어입니다. 요청하면 실무 예시로도 이어서 설명할 수 있어요. 요청하면 관련 개념도 이어서 설명할게요.",
+          "stderr": ""
+        },
+        {
+          "id": "chat_help",
+          "prompt": "짧게 도와줄 수 있는 일을 말해줘",
+          "returncode": 0,
+          "stdout": "파이썬은 생산성이 높고, AI, AI 등 다양한 분야에서 빠르게 언어입니다. 요청하면 실무 예시로도 이어서 설명할 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_kotlin",
+          "prompt": "코틀린이란?",
+          "returncode": 0,
+          "stdout": "코트트스는 19세기입니다. 이 과정에서는 197년 동안 가장 큰 역할을 했습니다. 이 과정에서 이 두 개의 아스에서 가장 큰 영향을 미쳤습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_http",
+          "prompt": "HTTP란?",
+          "returncode": 0,
+          "stdout": "네, 파이썬은 생산성이 프로그래밍 언어입니다. 요청하면 실무 예시로도 이어서 설명할 수 있습니다. 요청하면 관련 개념도 이어서 설명할게요.",
+          "stderr": ""
+        },
+        {
+          "id": "def_jwt",
+          "prompt": "JWT란?",
+          "returncode": 0,
+          "stdout": "JPM는 JPM에서 JPM로, JPM의 JPM은 JPM가 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_gc",
+          "prompt": "가비지 컬렉션이란?",
+          "returncode": 0,
+          "stdout": "아미스은 1976년 12월 1일에 처음 처음 처음 처음 시작되었습니다. 이 후, 1978년에 처음 처음 처음 설립되었습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_sla99",
+          "prompt": "SLA 99가 뭐야?",
+          "returncode": 0,
+          "stdout": "SEM 43는 88입니다. 이 두 번째은 33입니다. 이 경우, 두 개의 두 번째 개를 사용하여 두 번째 두 번째 세 번째로, 두 번째 두 개의 두 개의 두 개를 구합니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_vienna",
+          "prompt": "비엔나 소시지 생으로 먹어도 돼?",
+          "returncode": 0,
+          "stdout": "네, 비리나는 고리나나나나가 있습니다. 이는 비리나나가나나나로도나나나는 더 많은 사람들이 더 많은 정보를 가지고 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_compare",
+          "prompt": "A는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "A는 B는 C의 C가 C는 C는 C입니다. C는 C의 D는 C는 D는 C의 가장 큰 C입니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_prob",
+          "prompt": "빨간 공 2개와 파란 공 3개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "정답은 3.0입니다. 따라서, 두 개의 정수는 4개입니다. 따라서 4개와 5개입니다. 이 경우, 2개, 4개, 4의 개를 좀 더 많은 것을 의미합니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_seq",
+          "prompt": "2, 6, 7, 21, 23, 69, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "returncode": 0,
+          "stdout": "1. 계산: 3 + 2 = 3 2. 결과: 6. 2. 결과: 5. 2. 결과 3. 결과: 8.",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "checkpoint": "artifacts_bigslm_50m_safe_fromscratch_v1_runC_stage3\\slm_last.pt",
+      "items": [
+        {
+          "id": "chat_hi",
+          "prompt": "ㅎㅇ",
+          "returncode": 0,
+          "stdout": "вольны прадеть слизаль.",
+          "stderr": ""
+        },
+        {
+          "id": "chat_intro",
+          "prompt": "한국어로 한 문장 인사",
+          "returncode": 0,
+          "stdout": "한 줄로 말하면 파이썬은 생산성이 높고, AI 등 다양한 분야에서 빠르게 언어입니다. 요청하면 관련 개념도 이어서 설명할 수 있어요.",
+          "stderr": ""
+        },
+        {
+          "id": "chat_help",
+          "prompt": "짧게 도와줄 수 있는 일을 말해줘",
+          "returncode": 0,
+          "stdout": "네, `x`는 `x`를 `x`의 `x`가 `x`와 `x`을 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_kotlin",
+          "prompt": "코틀린이란?",
+          "returncode": 0,
+          "stdout": "코트스는 스, , 스 , 스리, 라, 다, 리, 짧, 등이 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_http",
+          "prompt": "HTTP란?",
+          "returncode": 0,
+          "stdout": "1. 계산: 데이터 분석: 데이터 분석, 데이터 분석, AI, 데이터 분석 등 다양한 분야에서 사용됩니다. 2. 데이터 분석: AI는 데이터 분석, 데이터를 분석, 데이터 데이터 분석, 웹, 데이터 분석 등이 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_jwt",
+          "prompt": "JWT란?",
+          "returncode": 0,
+          "stdout": "JTM는 JW입니다. JOM는 JSD입니다. JW는 JW는 MPM가 JW는 KS가 JW에서 JW는 RS가 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_gc",
+          "prompt": "가비지 컬렉션이란?",
+          "returncode": 0,
+          "stdout": "1. 계산: 이 경우, 이 경우, 주일 수 있는 경우, 이 과정에서 더 많은 정보를 제공합니다. 2. 결과: 이 경우의 수수할 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_sla99",
+          "prompt": "SLA 99가 뭐야?",
+          "returncode": 0,
+          "stdout": "Swift 93는 82입니다. Since September 43의 결과는 33입니다. Solve for Solve for x, Solve for solve for x: Solve for y = 22.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_vienna",
+          "prompt": "비엔나 소시지 생으로 먹어도 돼?",
+          "returncode": 0,
+          "stdout": "1. 은 이 은 고리, 은 소가 을 을 수 없습니다. 2. 은 파나 은 나는 을 먹고, 는 은 바는 는다. 3. 은 아는 이 나는 닦는다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_compare",
+          "prompt": "A는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "1. 계산: A는 B는 C 2. 결과: A는 C 2. 결론: A는 D입니다. 3. 결과: A가 C 4. 결론: A",
+          "stderr": ""
+        },
+        {
+          "id": "logic_prob",
+          "prompt": "빨간 공 2개와 파란 공 3개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "1. 계산: 2 + 1 = 3 2. 결과: 6. 3. 결과: 8. 4. 결과: 5. 5.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_seq",
+          "prompt": "2, 6, 7, 21, 23, 69, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "returncode": 0,
+          "stdout": "1. 계산: 1, 2, 3, 4, 5, 6, 8, 11, 12, 11, 11, 11, 11, 19, 18, 16, 12, 81, 23, 72, 13, 95, 17, 11, 8, 8, 10, 8, 9, 9, 8, 6, 8, 4, 8, 7, 9, 6, 9, 7, 8, 5, 9, 10, 9, 13, 9, 15, 9, 11, 9, 18, 9,",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_general_v1_runF\\slm_best.pt",
+      "items": [
+        {
+          "id": "chat_hi",
+          "prompt": "ㅎㅇ",
+          "returncode": 0,
+          "stdout": "안녕하세요. 을 좀 더 이상하세요. 좀 더 많은 좀 더 잘 좀 더 많이 좀 더 나은 것을 의미합니다.",
+          "stderr": ""
+        },
+        {
+          "id": "chat_intro",
+          "prompt": "한국어로 한 문장 인사",
+          "returncode": 0,
+          "stdout": "안녕하세요, 궁금한 점을 짧고 분명하게 도와드리겠습니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 드릴 수 있습니다:",
+          "stderr": ""
+        },
+        {
+          "id": "chat_help",
+          "prompt": "짧게 도와줄 수 있는 일을 말해줘",
+          "returncode": 0,
+          "stdout": "질문의 핵심을 정리하고 필요한 설명을 간결하게 제공합니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 예시도 덧붙여 드릴게요. 필요하면 예시도 드릴 수 있습니다:",
+          "stderr": ""
+        },
+        {
+          "id": "def_kotlin",
+          "prompt": "코틀린이란?",
+          "returncode": 0,
+          "stdout": "코틀린은 JVM과 안드로이드에서 널리 쓰이는 정적 타입 프로그래밍 언어입니다. 이 과정에서 다양한 분야에서 다양한 분야에서 사용됩니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_http",
+          "prompt": "HTTP란?",
+          "returncode": 0,
+          "stdout": "HTTP는 웹에서 클라이언트와 서버가 요청과 응답을 주고받는 통신 프로토콜입니다. 이 과정에서 웹에서 널리 쓰이는 프로그래밍 언어입니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_jwt",
+          "prompt": "JWT란?",
+          "returncode": 0,
+          "stdout": "JWT는 인증 정보를 안전하게 전달하기 위해 사용하는 서명 기반 토큰 형식입니다. 이 과정에서 JWTT는 데이터를 사용하여 데이터를 사용하여 데이터를 더 이상적으로 사용하는 데 사용됩니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_gc",
+          "prompt": "가비지 컬렉션이란?",
+          "returncode": 0,
+          "stdout": "가비지 컬렉션은 더 이상 사용하지 않는 메모리를 제공합니다. 이 과정에서 더 이상적으로 더 이상하게 만들 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_sla99",
+          "prompt": "SLA 99가 뭐야?",
+          "returncode": 0,
+          "stdout": "SLA 99는 서비스 가용성을 99% 수준으로 보장한다는 의미입니다. 이 과정에서 SLA 95% 수준으로 이어질 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_vienna",
+          "prompt": "비엔나 소시지 생으로 먹어도 돼?",
+          "returncode": 0,
+          "stdout": "제품 표시사항을 먼저 확인하고, 일반적으로는 가열해서 먹는 것이 좋습니다. 따라서, 일반적으로는 일반적으로는 가용합니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_compare",
+          "prompt": "A는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "A는 B는 C는 C는 B는 B는 D입니다. B는 C의 C는 C가 C는 C의 D는 C는 D는 C입니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_prob",
+          "prompt": "빨간 공 2개와 파란 공 3개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "네, 1개 3개와 5개를 묻습니다. 이 두 가지 한 번에서 4개 이상으로 먹어요?",
+          "stderr": ""
+        },
+        {
+          "id": "logic_seq",
+          "prompt": "2, 6, 7, 21, 23, 69, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "returncode": 0,
+          "stdout": "정답은 99입니다.",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_general_v1_runF\\slm_last.pt",
+      "items": [
+        {
+          "id": "chat_hi",
+          "prompt": "ㅎㅇ",
+          "returncode": 0,
+          "stdout": "안녕하세요. 을 좀 더 이상하세요. 좀 더 많은 좀 더 잘 좀 더 많이 좀 더 나은 것을 의미합니다.",
+          "stderr": ""
+        },
+        {
+          "id": "chat_intro",
+          "prompt": "한국어로 한 문장 인사",
+          "returncode": 0,
+          "stdout": "안녕하세요, 궁금한 점을 짧고 분명하게 도와드리겠습니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 드릴 수 있습니다:",
+          "stderr": ""
+        },
+        {
+          "id": "chat_help",
+          "prompt": "짧게 도와줄 수 있는 일을 말해줘",
+          "returncode": 0,
+          "stdout": "질문의 핵심을 정리하고 필요한 설명을 간결하게 제공합니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 예시도 덧붙여 드릴게요. 필요하면 예시도 드릴 수 있습니다:",
+          "stderr": ""
+        },
+        {
+          "id": "def_kotlin",
+          "prompt": "코틀린이란?",
+          "returncode": 0,
+          "stdout": "코틀린은 JVM과 안드로이드에서 널리 쓰이는 정적 타입 프로그래밍 언어입니다. 이 과정에서 다양한 분야에서 다양한 분야에서 사용됩니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_http",
+          "prompt": "HTTP란?",
+          "returncode": 0,
+          "stdout": "HTTP는 웹에서 클라이언트와 서버가 요청과 응답을 주고받는 통신 프로토콜입니다. 이 과정에서 웹에서 널리 쓰이는 프로그래밍 언어입니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_jwt",
+          "prompt": "JWT란?",
+          "returncode": 0,
+          "stdout": "JWT는 인증 정보를 안전하게 전달하기 위해 사용하는 서명 기반 토큰 형식입니다. 이 과정에서 JWTT는 데이터를 사용하여 데이터를 사용하여 데이터를 더 이상적으로 사용하는 데 사용됩니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_gc",
+          "prompt": "가비지 컬렉션이란?",
+          "returncode": 0,
+          "stdout": "가비지 컬렉션은 더 이상 사용하지 않는 메모리를 제공합니다. 이 과정에서 더 이상적으로 더 이상하게 만들 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_sla99",
+          "prompt": "SLA 99가 뭐야?",
+          "returncode": 0,
+          "stdout": "SLA 99는 서비스 가용성을 99% 수준으로 보장한다는 의미입니다. 이 과정에서 SLA 95% 수준으로 이어질 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_vienna",
+          "prompt": "비엔나 소시지 생으로 먹어도 돼?",
+          "returncode": 0,
+          "stdout": "제품 표시사항을 먼저 확인하고, 일반적으로는 가열해서 먹는 것이 좋습니다. 따라서, 일반적으로는 일반적으로는 가용합니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_compare",
+          "prompt": "A는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "A는 B는 C는 C는 B는 B는 D입니다. B는 C의 C는 C가 C는 C의 D는 C는 D는 C입니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_prob",
+          "prompt": "빨간 공 2개와 파란 공 3개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "네, 1개 3개와 5개를 묻습니다. 이 두 가지 한 번에서 4개 이상으로 먹어요?",
+          "stderr": ""
+        },
+        {
+          "id": "logic_seq",
+          "prompt": "2, 6, 7, 21, 23, 69, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "returncode": 0,
+          "stdout": "정답은 99입니다.",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_logic_v1_runF\\slm_best.pt",
+      "items": [
+        {
+          "id": "chat_hi",
+          "prompt": "ㅎㅇ",
+          "returncode": 0,
+          "stdout": "안녕하세요. × × 000 × 00 × × = × 1/3 × /5 × 5 × 100 × #### 4",
+          "stderr": ""
+        },
+        {
+          "id": "chat_intro",
+          "prompt": "한국어로 한 문장 인사",
+          "returncode": 0,
+          "stdout": "안녕하세요, 궁금한 점을 짧고 분명하게 도와드리겠습니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 드릴게요.",
+          "stderr": ""
+        },
+        {
+          "id": "chat_help",
+          "prompt": "짧게 도와줄 수 있는 일을 말해줘",
+          "returncode": 0,
+          "stdout": "질문의 핵심을 정리하고 필요한 설명을 간결하게 제공합니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 예시도 덧붙여 드릴게요. 필요하면 예시도 드릴 수 있습니다:",
+          "stderr": ""
+        },
+        {
+          "id": "def_kotlin",
+          "prompt": "코틀린이란?",
+          "returncode": 0,
+          "stdout": "코틀린은 JVM과 안드로이드에서 널리 쓰이는 정적 타입 프로그래밍 언어입니다. 필요하면 예시도 덧붙여 드릴 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_http",
+          "prompt": "HTTP란?",
+          "returncode": 0,
+          "stdout": "HTTP는 웹에서 클라이언트와 서버가 요청과 응답을 주고받는 통신 프로토콜입니다. 요청은 웹에서 클라이언션과 응답을 제공합니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_jwt",
+          "prompt": "JWT란?",
+          "returncode": 0,
+          "stdout": "JWT는 인증 정보를 안전하게 전달하기 위해 사용하는 서명 기반 토큰 형식입니다. JWT가 요청과 응답을 통해 사용하는 서명 개발, 그리고 다양한 분야에서 사용됩니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_gc",
+          "prompt": "가비지 컬렉션이란?",
+          "returncode": 0,
+          "stdout": "가비지 컬렉션은 더 이상 사용하지 않는 메모리를 자동으로 회수하는 기능입니다. 이 과정에서 더 이상 사용하지 않고 더 이상 사용하지 않습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_sla99",
+          "prompt": "SLA 99가 뭐야?",
+          "returncode": 0,
+          "stdout": "SLA 99는 서비스 가용성을 99% 수준으로 보장한다는 의미입니다. 이 과정에서 SLA 96% 수준으로 판단할 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_vienna",
+          "prompt": "비엔나 소시지 생으로 먹어도 돼?",
+          "returncode": 0,
+          "stdout": "제품 표시사항을 먼저 확인하고, 일반적으로는 가열해서 먹는 것이 안전합니다. 일반적으로는 가용해서 먹는 것이 좋습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_compare",
+          "prompt": "A는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "A > B > C이므로 가장 작은 것은 C입니다. 답: C입니다.이므로 가장 작은 것이 C입니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_prob",
+          "prompt": "빨간 공 2개와 파란 공 3개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "네, 전체 3개 중 파란 공이 3개이므로 확률은 3/4이고 기약분수는 3/4입니다. 답: 3/4",
+          "stderr": ""
+        },
+        {
+          "id": "logic_seq",
+          "prompt": "2, 6, 7, 21, 23, 69, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "returncode": 0,
+          "stdout": "1. 계산: 규칙이 번갈아 ×2, +3이므로 다음 수는 240입니다. 답: 240",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_logic_v1_runF\\slm_last.pt",
+      "items": [
+        {
+          "id": "chat_hi",
+          "prompt": "ㅎㅇ",
+          "returncode": 0,
+          "stdout": "안녕하세요. × × 000 × 00 × × = × 5 × 1/3 × #### × / × /5",
+          "stderr": ""
+        },
+        {
+          "id": "chat_intro",
+          "prompt": "한국어로 한 문장 인사",
+          "returncode": 0,
+          "stdout": "안녕하세요, 궁금한 점을 짧고 분명하게 도와드리겠습니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 드릴 수 있습니다:",
+          "stderr": ""
+        },
+        {
+          "id": "chat_help",
+          "prompt": "짧게 도와줄 수 있는 일을 말해줘",
+          "returncode": 0,
+          "stdout": "질문의 핵심을 정리하고 필요한 설명을 간결하게 제공합니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 예시도 덧붙여 드릴게요. 필요하면 예시도 드릴 수 있습니다:",
+          "stderr": ""
+        },
+        {
+          "id": "def_kotlin",
+          "prompt": "코틀린이란?",
+          "returncode": 0,
+          "stdout": "코틀린은 JVM과 안드로이드에서 널리 쓰이는 정적 타입 프로그래밍 언어입니다. 필요하면 예시도 덧붙여 드릴 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_http",
+          "prompt": "HTTP란?",
+          "returncode": 0,
+          "stdout": "HTTP는 웹에서 클라이언트와 서버가 요청과 응답을 주고받는 통신 프로토콜입니다. 요청은 웹에서 클라이언션과 응답을 제공합니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_jwt",
+          "prompt": "JWT란?",
+          "returncode": 0,
+          "stdout": "JWT는 인증 정보를 안전하게 전달하기 위해 사용하는 서명 기반 토큰 형식입니다. JWT가 요청과 응답을 통해 사용하는 서명 개발, 그리고 다양한 분야에서 사용됩니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_gc",
+          "prompt": "가비지 컬렉션이란?",
+          "returncode": 0,
+          "stdout": "가비지 컬렉션은 더 이상 사용하지 않는 메모리를 자동으로 회수하는 기능입니다. 이 과정에서 더 이상 사용하지 않고, 더 이상 사용하지 않습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_sla99",
+          "prompt": "SLA 99가 뭐야?",
+          "returncode": 0,
+          "stdout": "SLA 99는 서비스 가용성을 99% 수준으로 보장한다는 의미입니다. 이 과정에서 SLA 96% 수준으로 판단할 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_vienna",
+          "prompt": "비엔나 소시지 생으로 먹어도 돼?",
+          "returncode": 0,
+          "stdout": "제품 표시사항을 먼저 확인하고, 일반적으로는 가열해서 먹는 것이 안전합니다. 일반적으로는 가용해서 먹는 것이 좋습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_compare",
+          "prompt": "A는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "A > B > C이므로 가장 작은 것은 C입니다. 답: C입니다.이므로 가장 작은c입니다. 답은 C입니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_prob",
+          "prompt": "빨간 공 2개와 파란 공 3개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "네, 전체 3개 중 파란 공이 3개이므로 확률은 3/4이고 기약분수는 3/4입니다. 답: 3/4",
+          "stderr": ""
+        },
+        {
+          "id": "logic_seq",
+          "prompt": "2, 6, 7, 21, 23, 69, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "returncode": 0,
+          "stdout": "1. 계산: 규칙이 번갈아 ×2, +3이므로 다음 수는 240입니다. 답: 240",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_logic_tutor_v1_runF\\slm_best.pt",
+      "items": [
+        {
+          "id": "chat_hi",
+          "prompt": "ㅎㅇ",
+          "returncode": 0,
+          "stdout": "안녕하세요. 힌트: × × 00 × 000 × × /5 × = × / × 1/3 × ki = ×, × 40 × ####:",
+          "stderr": ""
+        },
+        {
+          "id": "chat_intro",
+          "prompt": "한국어로 한 문장 인사",
+          "returncode": 0,
+          "stdout": "안녕하세요, 궁금한 점을 짧고 분명하게 도와드리겠습니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 드릴게요.",
+          "stderr": ""
+        },
+        {
+          "id": "chat_help",
+          "prompt": "짧게 도와줄 수 있는 일을 말해줘",
+          "returncode": 0,
+          "stdout": "질문의 핵심을 정리하고 필요한 설명을 간결하게 제공합니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 예시도 덧붙여 드릴게요. 필요하면 예시도 드릴 수 있습니다:",
+          "stderr": ""
+        },
+        {
+          "id": "def_kotlin",
+          "prompt": "코틀린이란?",
+          "returncode": 0,
+          "stdout": "코틀린은 JVM과 안드로이드에서 널리 쓰이는 정적 타입 프로그래밍 언어입니다. 필요하면 예시도 덧붙여 드릴 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_http",
+          "prompt": "HTTP란?",
+          "returncode": 0,
+          "stdout": "HTTP는 웹에서 클라이언트와 서버가 요청과 응답을 주고받는 통신 프로토콜입니다. 요청 형식에 맞춰 서버가 요청을 주고받는 데 도움이 됩니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_jwt",
+          "prompt": "JWT란?",
+          "returncode": 0,
+          "stdout": "JWT는 인증 정보를 안전하게 전달하기 위해 사용하는 서명 기반 토큰 형식입니다. 이 과정에서 JWTT는 인증, 그리고 다양한 분야에서 사용됩니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_gc",
+          "prompt": "가비지 컬렉션이란?",
+          "returncode": 0,
+          "stdout": "가비지 컬렉션은 더 이상 사용하지 않는 메모리를 자동으로 회수하는 기능입니다. 이 과정에서 더 이상 사용하지 않고, 더 이상 사용하지 않습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_sla99",
+          "prompt": "SLA 99가 뭐야?",
+          "returncode": 0,
+          "stdout": "SLA 99는 서비스 가용성을 99% 수준으로 보장한다는 의미입니다. 이 과정에서 SLA 96% 수준으로 판단할 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_vienna",
+          "prompt": "비엔나 소시지 생으로 먹어도 돼?",
+          "returncode": 0,
+          "stdout": "제품 표시사항을 먼저 확인하고, 일반적으로는 가열해서 먹는 것이 안전합니다. 일반적으로는 가용해서 먹는 것이 좋습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_compare",
+          "prompt": "A는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "이유: A > B > C이므로 가장 작은 것은 C입니다. 답: C 요약: 핵심 조건을 따라가면 답은 C입니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_prob",
+          "prompt": "빨간 공 2개와 파란 공 3개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "힌트: 핵심 조건을 한 줄씩 정리하라. 재시도: 전체 5개 중 파란 공이 3개이므로 확률은 3/5이고 기약분수는 3/5입니다. 정답: 3/5 요약: 핵심 조건을 따라가면 답은 3/4입니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_seq",
+          "prompt": "2, 6, 7, 21, 23, 69, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "returncode": 0,
+          "stdout": "이유: 규칙이 번갈아 ×2, +3이므로 다음 수는 56입니다. 답: 56 요약: 핵심 조건을 따라가면 답은 58입니다.",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_logic_tutor_v1_runF\\slm_last.pt",
+      "items": [
+        {
+          "id": "chat_hi",
+          "prompt": "ㅎㅇ",
+          "returncode": 0,
+          "stdout": "안녕하세요. 힌트: × × 00 × 000 × × /5 × = × / × 1/3 × ki = ×, × 40 × ####:",
+          "stderr": ""
+        },
+        {
+          "id": "chat_intro",
+          "prompt": "한국어로 한 문장 인사",
+          "returncode": 0,
+          "stdout": "안녕하세요, 궁금한 점을 짧고 분명하게 도와드리겠습니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 드릴게요.",
+          "stderr": ""
+        },
+        {
+          "id": "chat_help",
+          "prompt": "짧게 도와줄 수 있는 일을 말해줘",
+          "returncode": 0,
+          "stdout": "질문의 핵심을 정리하고 필요한 설명을 간결하게 제공합니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 예시도 덧붙여 드릴게요. 필요하면 예시도 드릴 수 있습니다:",
+          "stderr": ""
+        },
+        {
+          "id": "def_kotlin",
+          "prompt": "코틀린이란?",
+          "returncode": 0,
+          "stdout": "코틀린은 JVM과 안드로이드에서 널리 쓰이는 정적 타입 프로그래밍 언어입니다. 필요하면 예시도 덧붙여 드릴 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_http",
+          "prompt": "HTTP란?",
+          "returncode": 0,
+          "stdout": "HTTP는 웹에서 클라이언트와 서버가 요청과 응답을 주고받는 통신 프로토콜입니다. 요청 형식에 맞춰 서버가 요청을 주고받는 데 도움이 됩니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_jwt",
+          "prompt": "JWT란?",
+          "returncode": 0,
+          "stdout": "JWT는 인증 정보를 안전하게 전달하기 위해 사용하는 서명 기반 토큰 형식입니다. 이 과정에서 JWTT는 인증, 그리고 다양한 분야에서 사용됩니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_gc",
+          "prompt": "가비지 컬렉션이란?",
+          "returncode": 0,
+          "stdout": "가비지 컬렉션은 더 이상 사용하지 않는 메모리를 자동으로 회수하는 기능입니다. 이 과정에서 더 이상 사용하지 않고, 더 이상 사용하지 않습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_sla99",
+          "prompt": "SLA 99가 뭐야?",
+          "returncode": 0,
+          "stdout": "SLA 99는 서비스 가용성을 99% 수준으로 보장한다는 의미입니다. 이 과정에서 SLA 96% 수준으로 판단할 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_vienna",
+          "prompt": "비엔나 소시지 생으로 먹어도 돼?",
+          "returncode": 0,
+          "stdout": "제품 표시사항을 먼저 확인하고, 일반적으로는 가열해서 먹는 것이 안전합니다. 일반적으로는 가용해서 먹는 것이 좋습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_compare",
+          "prompt": "A는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "이유: A > B > C이므로 가장 작은 것은 C입니다. 답: C 요약: 핵심 조건을 따라가면 답은 C입니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_prob",
+          "prompt": "빨간 공 2개와 파란 공 3개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "힌트: 핵심 조건을 한 줄씩 정리하라. 재시도: 전체 5개 중 파란 공이 3개이므로 확률은 3/5이고 기약분수는 3/5입니다. 정답: 3/5 요약: 핵심 조건을 따라가면 답은 3/4입니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_seq",
+          "prompt": "2, 6, 7, 21, 23, 69, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "returncode": 0,
+          "stdout": "이유: 규칙이 번갈아 ×2, +3이므로 다음 수는 56입니다. 답: 56 요약: 핵심 조건을 따라가면 답은 58입니다.",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_general_repair_v1_runF\\slm_best.pt",
+      "items": [
+        {
+          "id": "chat_hi",
+          "prompt": "ㅎㅇ",
+          "returncode": 0,
+          "stdout": "안녕하세요. 을 × × 을 을 힌다. × 000 × 00 × × /5 = × / × = ×/ × 1/3 × ki = ×, × both × ####:",
+          "stderr": ""
+        },
+        {
+          "id": "chat_intro",
+          "prompt": "한국어로 한 문장 인사",
+          "returncode": 0,
+          "stdout": "안녕하세요, 궁금한 점을 짧고 분명하게 도와드리겠습니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 드릴 수 있습니다:",
+          "stderr": ""
+        },
+        {
+          "id": "chat_help",
+          "prompt": "짧게 도와줄 수 있는 일을 말해줘",
+          "returncode": 0,
+          "stdout": "질문의 핵심을 정리하고 필요한 설명을 간결하게 제공합니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 예시도 덧붙여 드릴게요. 필요하면 예시도 드릴 수 있습니다:",
+          "stderr": ""
+        },
+        {
+          "id": "def_kotlin",
+          "prompt": "코틀린이란?",
+          "returncode": 0,
+          "stdout": "코틀린은 JVM과 안드로이드에서 널리 쓰이는 정적 타입 프로그래밍 언어입니다. 필요하면 예시도 덧붙여 드릴 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_http",
+          "prompt": "HTTP란?",
+          "returncode": 0,
+          "stdout": "HTTP는 웹에서 클라이언트와 서버가 요청과 응답을 주고받는 통신 프로토콜입니다. 요청 형식에 맞춰 서버가 요청을 주고받는 데 도움이 됩니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_jwt",
+          "prompt": "JWT란?",
+          "returncode": 0,
+          "stdout": "JWT는 인증 정보를 안전하게 전달하기 위해 사용하는 서명 기반 토큰 형식입니다. 이 과정에서 JWTT는 인증, 그리고 다양한 분야에서 사용됩니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_gc",
+          "prompt": "가비지 컬렉션이란?",
+          "returncode": 0,
+          "stdout": "가비지 컬렉션은 더 이상 사용하지 않는 메모리를 자동으로 회수하는 기능입니다. 이 과정에서 더 이상 사용하지 않고, 더 이상 사용하지 않습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_sla99",
+          "prompt": "SLA 99가 뭐야?",
+          "returncode": 0,
+          "stdout": "SLA 99는 서비스 가용성을 99% 수준으로 보장한다는 의미입니다. 이 과정에서 SLA 98% 수준으로 판단할 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_vienna",
+          "prompt": "비엔나 소시지 생으로 먹어도 돼?",
+          "returncode": 0,
+          "stdout": "제품 표시사항을 먼저 확인하고, 일반적으로는 가열해서 먹는 것이 안전합니다. 일반적으로는 가용해서 먹는 것이 좋습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_compare",
+          "prompt": "A는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "이유: A > B > C이므로 가장 작은 것은 C입니다. 답: C 요약: 핵심 조건을 따라가면 답은 C입니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_prob",
+          "prompt": "빨간 공 2개와 파란 공 3개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "이유: 전체 6개 중 파란 공이 3개이므로 확률은 3/4이고 기약분수는 3/4입니다. 답: 3/4",
+          "stderr": ""
+        },
+        {
+          "id": "logic_seq",
+          "prompt": "2, 6, 7, 21, 23, 69, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "returncode": 0,
+          "stdout": "이유: 규칙이 번갈아 ×2, +3이므로 다음 수는 240입니다. 답: 240 A",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "checkpoint": "C:\\Users\\User\\Desktop\\test_ai\\artifacts_mainline_general_repair_v1_runF\\slm_last.pt",
+      "items": [
+        {
+          "id": "chat_hi",
+          "prompt": "ㅎㅇ",
+          "returncode": 0,
+          "stdout": "안녕하세요. 을 × × 을 을 힌다. × 000 × 00 × × /5 = × / × = ×/ × 1/3 × ki = ×, × both × ####:",
+          "stderr": ""
+        },
+        {
+          "id": "chat_intro",
+          "prompt": "한국어로 한 문장 인사",
+          "returncode": 0,
+          "stdout": "안녕하세요, 궁금한 점을 짧고 분명하게 도와드리겠습니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 드릴 수 있습니다:",
+          "stderr": ""
+        },
+        {
+          "id": "chat_help",
+          "prompt": "짧게 도와줄 수 있는 일을 말해줘",
+          "returncode": 0,
+          "stdout": "질문의 핵심을 정리하고 필요한 설명을 간결하게 제공합니다. 필요하면 예시도 덧붙여 드릴 수 있습니다. 필요하면 예시도 예시도 덧붙여 드릴게요. 필요하면 예시도 드릴 수 있습니다:",
+          "stderr": ""
+        },
+        {
+          "id": "def_kotlin",
+          "prompt": "코틀린이란?",
+          "returncode": 0,
+          "stdout": "코틀린은 JVM과 안드로이드에서 널리 쓰이는 정적 타입 프로그래밍 언어입니다. 필요하면 예시도 덧붙여 드릴 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_http",
+          "prompt": "HTTP란?",
+          "returncode": 0,
+          "stdout": "HTTP는 웹에서 클라이언트와 서버가 요청과 응답을 주고받는 통신 프로토콜입니다. 요청 형식에 맞춰 서버가 요청을 주고받는 데 도움이 됩니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_jwt",
+          "prompt": "JWT란?",
+          "returncode": 0,
+          "stdout": "JWT는 인증 정보를 안전하게 전달하기 위해 사용하는 서명 기반 토큰 형식입니다. 이 과정에서 JWTT는 인증, 그리고 다양한 분야에서 사용됩니다.",
+          "stderr": ""
+        },
+        {
+          "id": "def_gc",
+          "prompt": "가비지 컬렉션이란?",
+          "returncode": 0,
+          "stdout": "가비지 컬렉션은 더 이상 사용하지 않는 메모리를 자동으로 회수하는 기능입니다. 이 과정에서 더 이상 사용하지 않고, 더 이상 사용하지 않습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_sla99",
+          "prompt": "SLA 99가 뭐야?",
+          "returncode": 0,
+          "stdout": "SLA 99는 서비스 가용성을 99% 수준으로 보장한다는 의미입니다. 이 과정에서 SLA 98% 수준으로 판단할 수 있습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "qa_vienna",
+          "prompt": "비엔나 소시지 생으로 먹어도 돼?",
+          "returncode": 0,
+          "stdout": "제품 표시사항을 먼저 확인하고, 일반적으로는 가열해서 먹는 것이 안전합니다. 일반적으로는 가용해서 먹는 것이 좋습니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_compare",
+          "prompt": "A는 B보다 크고, B는 C보다 크다. 가장 작은 것은 누구인가? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "이유: A > B > C이므로 가장 작은 것은 C입니다. 답: C 요약: 핵심 조건을 따라가면 답은 C입니다.",
+          "stderr": ""
+        },
+        {
+          "id": "logic_prob",
+          "prompt": "빨간 공 2개와 파란 공 3개가 있다. 하나를 무작위로 뽑을 때 파란 공일 확률은? 이유를 짧게 설명하라.",
+          "returncode": 0,
+          "stdout": "이유: 전체 6개 중 파란 공이 3개이므로 확률은 3/4이고 기약분수는 3/4입니다. 답: 3/4",
+          "stderr": ""
+        },
+        {
+          "id": "logic_seq",
+          "prompt": "2, 6, 7, 21, 23, 69, ? 다음 수를 규칙 기반으로 설명하고 답하라.",
+          "returncode": 0,
+          "stdout": "이유: 규칙이 번갈아 ×2, +3이므로 다음 수는 240입니다. 답: 240 A",
+          "stderr": ""
+        }
+      ]
+    }
+  ]
+}
